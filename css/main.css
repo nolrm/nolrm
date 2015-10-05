@@ -93,3 +93,156 @@ a {
 a:hover {
   color: #4C4C4C;
 }
+
+
+
+/* Animatet CSS */
+
+.brand-animate {
+  position: absolute;
+  height: 60%;
+  right: 20px;
+  bottom: 10%;
+  overflow: visible!important;
+}
+
+@-webkit-keyframes fill {
+  0% {
+    fill: #E0E0E0;
+  }
+  1% {
+    fill: #fff;
+  }
+  70% {
+    fill: #fff;
+  }
+  100% {
+    fill: #E0E0E0;
+  }
+}
+@-moz-keyframes fill {
+  0% {
+    fill: #E0E0E0;
+  }
+  1% {
+    fill: #fff;
+  }
+  70% {
+    fill: #fff;
+  }
+  100% {
+    fill: #E0E0E0;
+  }
+}
+@-o-keyframes fill {
+  0% {
+    fill: #E0E0E0;
+  }
+  1% {
+    fill: #fff;
+  }
+  70% {
+    fill: #fff;
+  }
+  100% {
+    fill: #E0E0E0;
+  }
+}
+@keyframes fill {
+  0% {
+    fill: #E0E0E0;
+  }
+  1% {
+    fill: #fff;
+  }
+  70% {
+    fill: #fff;
+  }
+  100% {
+    fill: #E0E0E0;
+  }
+}
+@-webkit-keyframes dash {
+  0% {
+    stroke-dashoffset: 2853.59228515625;
+  }
+  70% {
+    stroke-dashoffset: 0;
+  }
+  71% {
+    opacity: 1;
+  }
+  72% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes dash {
+  0% {
+    stroke-dashoffset: 2853.59228515625;
+  }
+  70% {
+    stroke-dashoffset: 0;
+  }
+  71% {
+    opacity: 1;
+  }
+  72% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes dash {
+  0% {
+    stroke-dashoffset: 2853.59228515625;
+  }
+  70% {
+    stroke-dashoffset: 0;
+  }
+  71% {
+    opacity: 1;
+  }
+  72% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 2853.59228515625;
+  }
+  70% {
+    stroke-dashoffset: 0;
+  }
+  71% {
+    opacity: 1;
+  }
+  72% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.brand-animate--fill {
+  fill: #BFBFBF;
+  -webkit-animation: fill 5s ease-in-out infinite;
+  -moz-animation: fill 5s ease-in-out infinite;
+  -o-animation: fill 5s ease-in-out infinite;
+  animation: fill 5s ease-in-out infinite;
+}
+
+.brand-animate--stroke {
+  stroke-dasharray: 2853.59228515625;
+  stroke-dashoffset: 2853.59228515625;
+  -webkit-animation: dash 5s ease-in-out infinite;
+  -moz-animation: dash 5s ease-in-out infinite;
+  -o-animation: dash 5s ease-in-out infinite;
+  animation: dash 5s ease-in-out infinite;
+}
