@@ -142,7 +142,7 @@ a:hover {
   position: relative;
   padding-left: 30px;
   padding-bottom: 20px;
-  margin: 40px 0 30px 170px;
+  margin: 40px 0 100px 170px;
   border-left: 1px solid #ADADAD;
 }
 
@@ -150,6 +150,7 @@ a:hover {
   .menu__content {
     border-left: none;
     margin-left: 0;
+    padding-left: 0;
   }
 }
 
