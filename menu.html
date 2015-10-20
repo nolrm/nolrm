@@ -12,7 +12,7 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/main.css">
 
     </head>
@@ -22,43 +22,74 @@
         <![endif]-->
 
 
-<div class="masthead">
-  <div class="container">
-    <a href="/">
-      <svg version="1.1" class="masthead__logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 829.446 527.163" enable-background="new 0 0 829.446 527.163" xml:space="preserve">
-        <polygon class="masthead__logo--fill" points="304.28,185.818 501.355,527.163 610.029,527.216 304.305,0 6.843,515.068 6.982,515.048 0,527.162 107.101,527.159 107.205,527.167 107.212,527.152 329.205,527.164 402.741,399.795 348.955,306.957 275.522,434.14 160.909,434.144 "
-        />
-        <polygon class="masthead__logo--fill" points="829.446,527.144 578.818,94.061 578.818,94.06 524.384,0 428.471,169.228 482.257,262.067 525.182,187.381 721.355,527.163 " />
-      </svg>
+        <div class="masthead">
+          <div class="container">
+            <a href="/">
+              <svg version="1.1" class="masthead__logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 829.446 527.163" enable-background="new 0 0 829.446 527.163" xml:space="preserve">
+                <polygon class="masthead__logo--fill" points="304.28,185.818 501.355,527.163 610.029,527.216 304.305,0 6.843,515.068 6.982,515.048 0,527.162 107.101,527.159 107.205,527.167 107.212,527.152 329.205,527.164 402.741,399.795 348.955,306.957 275.522,434.14 160.909,434.144 "
+                />
+                <polygon class="masthead__logo--fill" points="829.446,527.144 578.818,94.061 578.818,94.06 524.384,0 428.471,169.228 482.257,262.067 525.182,187.381 721.355,527.163 " />
+              </svg>
 
-      <div class="masthead__name">
-        <strong>Marlon Maniti</strong>
-        <small>Front End Developer / UI/UX Designer</small>
-      </div>
-    </a>
+              <div class="masthead__name">
+                <strong>Marlon Maniti</strong>
+                <small>Front End Developer / UI/UX Designer</small>
+              </div>
+            </a>
 
-    <div class="masthead__menu pull-right">
-      <a href="#"><span>back to home</span><i class="ion-android-arrow-forward ion-height"></i></a>
-    </div>
+            <a class="masthead__menu pull-right" href="/"><span>back to home &nbsp;</span><i class="fa fa-long-arrow-right fa-2x"></i></a>
 
-  </div>
-</div>
-<!-- end /.masthead -->
+          </div>
+        </div>
+        <!-- end /.masthead -->
 
-<div class="container">
-  <h1>Hello World</h1>
-</div>
+        <div class="menu">
+          <div class="container">
+            <h1 class="page-header menu__title">About Me</h1>
+            
+            <div class="menu__sidebar text-right hidden-xs">
+              <ul class="list-unstyled">
+                <li class="active"><a href="#about">about me</a></li>
+                <li><a href="#contact">contact me</a></li>
+                <li></li>
+              </ul>
+            </div>
 
-<footer>
-  <div class="container">
-    <span>&#169 2015 Marlon Maniti</span>
-    <span class="pull-right">
-      <a class="footer__social" href="https://github.com/nolrm" target="_blank"><i class="ion-social-github"></i></a>
-      <a class="footer__social" href="http://codepen.io/nolrm/" target="_blank"><i class="ion-social-codepen"></i></a>
-      <a class="footer__social" href="http://nz.linkedin.com/pub/marlon-maniti/bb/66b/217" target="_blank"><i class="ion-social-linkedin"></i></a>
-    </span>
-  </div>
-</footer>
+            <div class="menu__content">
+              <div id="about">
+                <h3>About me</h3>
+                <h4>I'm a Front End Developer and UX/UI Designer from Auckland, New Zealand.</h4>
+                <p>I enjoy turning complex problems into simple, beautiful and intuitive interface designs. When I'm not coding or pushing pixels, you'll find me in the gym or on the court shooting hoops.</p>
+              </div>
+
+              <hr />
+
+              <div id="contact">
+                <h3>Conntact me</h3>
+                <ul class="list-unstyled menu__contact">
+                  <li><a href="mailto:lonmaniti@gmail.com" target="_blank"><i class="fa fa-envelope-o fa-3x"></i>lonmaniti@gmail.com</a></li>
+                  <li><a href="http://be.net/nolrm" target="_blank"><i class="fa fa-behance fa-3x"></i>See my portfolio</a></li>
+                  <li><a href="https://github.com/nolrm" target="_blank"><i class="fa fa-github-alt fa-3x"></i>Fork Me</a></li>
+                  <li><a href="http://codepen.io/nolrm/" target="_blank"><i class="fa fa-codepen fa-3x"></i>Follow Me</a></li>
+                  <li><a href="http://nz.linkedin.com/pub/marlon-maniti/bb/66b/217" target="_blank"><i class="fa fa-linkedin fa-3x"></i>Add me to your Network</a></li>
+                </ul>
+              </div>
+            </div> 
+
+          </div>
+        </div>
+
+
+        <footer>
+          <div class="container">
+            <span>&#169 2015 Marlon Maniti</span>
+            <span class="pull-right">
+              <a class="footer__social" href="https://github.com/nolrm" target="_blank"><i class="fa fa-github"></i></a>
+              <a class="footer__social" href="http://codepen.io/nolrm/" target="_blank"><i class="fa fa-codepen"></i></a>
+              <a class="footer__social" href="http://nz.linkedin.com/pub/marlon-maniti/bb/66b/217" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+            </span>
+          </div>
+        </footer>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="js/plugin/scrollReveal.min.js"></script>
