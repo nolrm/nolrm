@@ -169,7 +169,7 @@ a:hover {
 
 
 
-/* Animatet CSS */
+/* Logo Animate CSS */
 
 .brand-animate {
   position: absolute;
@@ -318,4 +318,71 @@ a:hover {
   -moz-animation: dash 5s ease-in-out infinite;
   -o-animation: dash 5s ease-in-out infinite;
   animation: dash 5s ease-in-out infinite;
+}
+
+
+/* Logo Pulse CSS */
+#pulse-wrapper {
+  position: fixed;
+  width: 100%;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  height: 100%;
+  background-color: #181d27;
+  z-index: 9999;
+}
+
+.pulse-logo {
+  width: 90px;
+  margin: 0 auto;
+  -moz-animation: pulsate 6s cubic-bezier(0.73, 0.005, 0.42, 1.005) infinite;
+  -webkit-animation: pulsate 6s cubic-bezier(0.73, 0.005, 0.42, 1.005) infinite;
+  animation: pulsate 6s cubic-bezier(0.73, 0.005, 0.42, 1.005) infinite;
+}
+
+@-webkit-keyframes pulsate {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+@-moz-keyframes pulsate {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+@-ms-keyframes pulsate {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+@keyframes pulsate {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.1;
+  }
 }
