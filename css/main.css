@@ -323,20 +323,24 @@ a:hover {
 
 /* Logo Pulse CSS */
 #pulse-wrapper {
-  position: fixed;
-  width: 100%;
   top:0;
   left:0;
   bottom:0;
   right:0;
+  width: 100%;
   height: 100%;
   background-color: #181d27;
-  z-index: 9999;
+  color: #CECECE;
+}
+
+#pulse-wrapper a,
+#pulse-wrapper a:hover {
+  color: #fff;
 }
 
 .pulse-logo {
   width: 90px;
-  margin: 0 auto;
+  margin: 0 auto 50px;
   -moz-animation: pulsate 6s cubic-bezier(0.73, 0.005, 0.42, 1.005) infinite;
   -webkit-animation: pulsate 6s cubic-bezier(0.73, 0.005, 0.42, 1.005) infinite;
   animation: pulsate 6s cubic-bezier(0.73, 0.005, 0.42, 1.005) infinite;
