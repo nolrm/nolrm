@@ -25,7 +25,9 @@ body {
 }
 
 .masthead {
-  position: relative;
+  position: absolute;
+  left: 0;
+  right: 0;
   margin-top: 20px;
 }
 
@@ -51,15 +53,15 @@ body {
   vertical-align: middle;
 }
 
-.main__title {
+.headline__title {
   font-size: 60px;
 }
 
-.main__desc {
+.headline__desc {
   margin-top: 10px;
 }
 
-.main__desc-border {
+.headline__desc-border {
   border-top: 1px solid #ADADAD;
   margin-top: 6px;
 }
@@ -93,6 +95,8 @@ body {
 }
 
 footer {
+  position: absolute;
+  width: 100%;
   padding: 40px 0 20px;
   background: #E6E6E6;
   border-top: 1px solid #D6D6D6;
@@ -117,6 +121,10 @@ a:hover {
 }
 
 /* MENU */
+.menu-content {
+  margin-top: 50px;
+}
+
 .menu__title {
   color: #ADADAD;
   border-bottom: 1px solid #ADADAD;
