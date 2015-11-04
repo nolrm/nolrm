@@ -16,6 +16,8 @@
   ],
   "dependencies": {
     "angularjs": "~1.3.7",
-    "ui-router": "~0.2.13"
+    "ui-router": "~0.2.13",
+    "bootstrap": "~3.3.5",
+    "scrollreveal": "scrollReveal.js#~2.3.2"
   }
 }

@@ -841,7 +841,7 @@ textarea:focus {
  */
 /* line 10, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_clearfix.scss */
 .cf:after, .nav:after, .media:after, .island:after,
-.islet:after, .matrix:after, .multi-list:after, .stat-group:after, .page-nav:after, .page-footer--social-list:after {
+.islet:after, .matrix:after, .multi-list:after, .stat-group:after {
   content: "";
   display: table;
   clear: both; }
@@ -5857,10 +5857,8 @@ html.flexbox {
 /**
  * She’s all yours, cap’n... Begin importing your stuff here.
  */
-/* line 4, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/layout/_post.scss */
-.post--content {
-  padding-top: 30px; }
-
+/*@import "ui-itsvicsoto/ui-vars";*/
+/*@import "ui-itsvicsoto/layout/post";*/
 /* ==========================================================================
    Quick Vars
    ========================================================================== */
@@ -6295,207 +6293,262 @@ green     #859900  operators, other keywords
   background-color: transparent; }
 
 /* Other major browsers */
-/*------------------------------------*\
-    #hs-color-love
-\*------------------------------------*/
-/* line 5, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/base/_highlight-colors.scss */
-.hs-color-love {
-  color: #ff055e;
-  font-weight: bold; }
-
-/*------------------------------------*\
-    #SECTION-HEADER
-\*------------------------------------*/
-/* line 5, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/base/_section-header.scss */
-.section-header {
-  background: #272a39; }
-
-/* line 9, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/base/_section-header.scss */
-.section-header__title {
-  padding: 10px 0;
-  margin: 0;
-  color: #ff5289; }
-
-/*------------------------------------*\
-    #SECTION-HEADER__SIDEMENU
-\*------------------------------------*/
-/* line 22, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/base/_section-header.scss */
-.section-header__sidemenu {
-  position: relative; }
-  /* line 25, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/base/_section-header.scss */
-  .section-header__sidemenu > ul {
-    position: absolute;
-    right: 0;
-    width: 250px;
-    margin: 0;
-    padding: 80px 20px 20px 20px;
-    list-style: none;
-    text-align: right;
-    background: #272A39; }
-  /* line 36, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/base/_section-header.scss */
-  .section-header__sidemenu > ul > li {
-    padding-bottom: 10px; }
-  /* line 40, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/base/_section-header.scss */
-  .section-header__sidemenu > ul > li > a {
-    color: #fff;
-    font-weight: bold; }
-    /* line 46, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/base/_section-header.scss */
-    .section-header__sidemenu > ul > li > a > i:before {
-      width: 16px;
-      margin: 0;
-      padding: 0;
-      text-align: center; }
-  /* line 57, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/base/_section-header.scss */
-  .section-header__sidemenu span.highlight {
-    color: #ff5289;
-    font-weight: normal;
-    text-decoration: underline; }
-
+/*@import "ui-itsvicsoto/base/highlight-colors";*/
+/*@import "ui-itsvicsoto/base/section-header";*/
+/*@import "ui-itsvicsoto/header";
+@import "ui-itsvicsoto/footer";
+@import "ui-itsvicsoto/latest-lists";*/
 /*------------------------------------*\
     #PAGE-HEADER
 \*------------------------------------*/
-/* line 5, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_header.scss */
-.page-header {
-  position: relative;
-  padding: 10px 20px; }
-  @media only screen and (min-width: 1024px) {
-    /* line 5, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_header.scss */
-    .page-header {
-      padding: 20px 40px;
-      height: 300px; } }
+/* line 5, ../../source/itsvicssx/scss-inuitcss/ui-mcmaniti/_header.scss */
+.masthead {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 20px; }
 
-/* line 16, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_header.scss */
-.page-header__masthead {
-  background: url(https://unsplash.com/photos/HzaT5l4Fzqc/download);
-  background-size: cover; }
-  @media only screen and (min-width: 481px) {
-    /* line 16, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_header.scss */
-    .page-header__masthead {
-      height: 300px; } }
-  @media only screen and (min-width: 1024px) {
-    /* line 16, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_header.scss */
-    .page-header__masthead {
-      height: 500px;
-      background-position-y: -150px; } }
+/* line 12, ../../source/itsvicssx/scss-inuitcss/ui-mcmaniti/_header.scss */
+.masthead__logo {
+  height: 32px;
+  margin-right: 15px; }
 
-/* line 31, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_header.scss */
-.page-header__centerfold {
-  padding: 20px 20px 1px 20px;
-  margin-top: 100px;
-  text-align: center; }
-  @media only screen and (min-width: 481px) and (max-width: 1023px) {
-    /* line 31, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_header.scss */
-    .page-header__centerfold {
-      padding: 0;
-      margin: 30px auto; } }
-  @media only screen and (max-width: 480px) {
-    /* line 31, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_header.scss */
-    .page-header__centerfold {
-      padding: 0;
-      margin: 30px auto; } }
+/* line 17, ../../source/itsvicssx/scss-inuitcss/ui-mcmaniti/_header.scss */
+.masthead__logo--fill {
+  fill: #AC97C3; }
 
-/* line 48, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_header.scss */
-.page-header__centerfold-inner {
-  display: inline-block; }
-  /* line 51, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_header.scss */
-  .page-header__centerfold-inner > h1 {
-    margin: 0; }
+/* line 21, ../../source/itsvicssx/scss-inuitcss/ui-mcmaniti/_header.scss */
+.masthead__name {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 18px; }
+  /* line 26, ../../source/itsvicssx/scss-inuitcss/ui-mcmaniti/_header.scss */
+  .masthead__name small {
+    display: block; }
+  /* line 30, ../../source/itsvicssx/scss-inuitcss/ui-mcmaniti/_header.scss */
+  .masthead__name i {
+    vertical-align: middle; }
 
-/* line 57, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_header.scss */
-.page-header__centerfold__shortdesc {
-  padding: 5px 10px;
-  border-bottom: 2px solid #262626;
-  background-color: rgba(255, 255, 255, 0.68);
-  font-weight: 300;
-  font-size: 14px; }
-
-/*------------------------------------*\
-    #PAGE-NAV
-\*------------------------------------*/
-/* line 78, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_header.scss */
-.page-nav__logo {
-  display: block;
-  float: left;
-  padding: 10px 20px;
-  margin-top: 10px;
-  border: 2px solid #7B7B7B;
-  font-size: 13px;
-  font-weight: 400;
-  background: #7B7B7B;
-  color: #fff; }
-
-/* line 90, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_header.scss */
-.page-nav__linklist {
-  display: none;
-  color: #7B7B7B; }
-  @media only screen and (min-width: 481px) {
-    /* line 90, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_header.scss */
-    .page-nav__linklist {
-      display: block; } }
-
-/* line 100, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_header.scss */
-.page-nav__linkitem {
-  padding: 20px; }
-  /* line 103, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_header.scss */
-  .page-nav__linkitem:last-child {
-    padding-right: 0; }
+/* line 36, ../../source/itsvicssx/scss-inuitcss/ui-mcmaniti/_header.scss */
+.masthead__menu {
+  display: inline; }
 
 /*------------------------------------*\
     #PAGE-FOOTER
 \*------------------------------------*/
-/* line 5, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_footer.scss */
-.page-footer {
-  padding: 10px 20px;
-  border-top: 2px solid #ff5289;
-  background: #272A39;
-  font-size: 12px;
-  color: #fff; }
+/* line 5, ../../source/itsvicssx/scss-inuitcss/ui-mcmaniti/_footer.scss */
+footer {
+  position: absolute;
+  width: 100%;
+  padding: 40px 0 20px;
+  background: #E6E6E6;
+  border-top: 1px solid #D6D6D6;
+  line-height: 24px; }
 
-/* line 13, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_footer.scss */
-.page-footer--social-list {
-  list-style: none;
-  margin: 0;
-  padding: 0; }
-  /* line 19, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_footer.scss */
-  .page-footer--social-list > li {
-    float: left;
-    margin-right: 15px; }
+/* line 14, ../../source/itsvicssx/scss-inuitcss/ui-mcmaniti/_footer.scss */
+.footer__social {
+  font-size: 24px;
+  padding: 0 2px; }
 
 /*------------------------------------*\
-    #LATEST_LISTS
+    #PAGE-CONTENT
 \*------------------------------------*/
-/* line 7, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_latest-lists.scss */
-.latest-lists__heading {
-  -moz-transition: all 250ms;
-  -o-transition: all 250ms;
-  -webkit-transition: all 250ms;
-  transition: all 250ms;
-  margin: 0;
-  padding: 0 10px;
-  color: #ff5289;
-  outline: 1px solid #E6E6E6;
-  font-weight: 200;
-  text-align: center; }
-  /* line 16, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_latest-lists.scss */
-  .latest-lists__heading:hover {
-    outline: 1px solid #ff5289;
-    color: #F00; }
+/* line 5, ../../source/itsvicssx/scss-inuitcss/ui-mcmaniti/_main.scss */
+.headline__title {
+  font-size: 60px; }
 
-/* line 23, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_latest-lists.scss */
-.latest-lists__posts-container {
-  padding: 25px; }
+/* line 9, ../../source/itsvicssx/scss-inuitcss/ui-mcmaniti/_main.scss */
+.headline__desc {
+  margin-top: 10px; }
 
-/* line 28, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_latest-lists.scss */
-.latest-lists__posts {
-  margin: 0;
-  list-style: none; }
+/* line 13, ../../source/itsvicssx/scss-inuitcss/ui-mcmaniti/_main.scss */
+.headline__desc-border {
+  border-top: 1px solid #adadad;
+  margin-top: 6px; }
 
-/* line 33, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_latest-lists.scss */
-.latest-lists__items {
-  padding-bottom: 30px; }
-  /* line 36, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_latest-lists.scss */
-  .latest-lists__items:last-child {
-    padding-bottom: 0; }
-  /* line 38, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_latest-lists.scss */
-  .latest-lists__items .title {
-    font-weight: bold; }
+/* line 19, ../../source/itsvicssx/scss-inuitcss/ui-mcmaniti/_main.scss */
+.home-section {
+  padding: 40px 0 100px;
+  background: #f1f1f1; }
+  /* line 23, ../../source/itsvicssx/scss-inuitcss/ui-mcmaniti/_main.scss */
+  .home-section .page-header {
+    border-bottom: 1px solid #adadad;
+    margin-bottom: 40px; }
+
+/* line 30, ../../source/itsvicssx/scss-inuitcss/ui-mcmaniti/_main.scss */
+.home-section__item {
+  padding: 6px;
+  background: white;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  /*    @media (max-width: $screen-xs-max) {
+        margin-bottom: 30px;
+      }*/ }
+  /* line 39, ../../source/itsvicssx/scss-inuitcss/ui-mcmaniti/_main.scss */
+  .home-section__item h4 {
+    margin-bottom: 0; }
+  /* line 43, ../../source/itsvicssx/scss-inuitcss/ui-mcmaniti/_main.scss */
+  .home-section__item p {
+    color: #888; }
+
+/*------------------------------------*\
+    #GENERIC
+\*------------------------------------*/
+/* line 5, ../../source/itsvicssx/scss-inuitcss/ui-mcmaniti/_generic.scss */
+.v-align {
+  display: table;
+  height: 100%;
+  width: 100%; }
+
+/* line 11, ../../source/itsvicssx/scss-inuitcss/ui-mcmaniti/_generic.scss */
+.v-align-inner {
+  display: table-cell;
+  vertical-align: middle; }
+
+/*------------------------------------*\
+    #LOGO-ANIMATE
+\*------------------------------------*/
+/* line 5, ../../source/itsvicssx/scss-inuitcss/ui-mcmaniti/animate/_pulse.scss */
+.pulse-logo {
+  width: 90px;
+  margin: 0 auto;
+  -moz-animation: pulsate 6s cubic-bezier(0.73, 0.005, 0.42, 1.005) infinite;
+  -webkit-animation: pulsate 6s cubic-bezier(0.73, 0.005, 0.42, 1.005) infinite;
+  animation: pulsate 6s cubic-bezier(0.73, 0.005, 0.42, 1.005) infinite; }
+
+@-webkit-keyframes pulsate {
+  0% {
+    opacity: 0.1; }
+  50% {
+    opacity: 0.5; }
+  100% {
+    opacity: 0.1; } }
+@-moz-keyframes pulsate {
+  0% {
+    opacity: 0.1; }
+  50% {
+    opacity: 0.5; }
+  100% {
+    opacity: 0.1; } }
+@-ms-keyframes pulsate {
+  0% {
+    opacity: 0.1; }
+  50% {
+    opacity: 0.5; }
+  100% {
+    opacity: 0.1; } }
+@keyframes pulsate {
+  0% {
+    opacity: 0.1; }
+  50% {
+    opacity: 0.5; }
+  100% {
+    opacity: 0.1; } }
+/*------------------------------------*\
+    #LOGO-ANIMATE
+\*------------------------------------*/
+/* line 5, ../../source/itsvicssx/scss-inuitcss/ui-mcmaniti/animate/_stroke.scss */
+.brand-animate {
+  position: absolute;
+  height: 60%;
+  right: 20px;
+  bottom: 10%;
+  overflow: visible !important; }
+
+@-webkit-keyframes fill {
+  0% {
+    fill: #E0E0E0; }
+  1% {
+    fill: #fff; }
+  70% {
+    fill: #fff; }
+  100% {
+    fill: #E0E0E0; } }
+@-moz-keyframes fill {
+  0% {
+    fill: #E0E0E0; }
+  1% {
+    fill: #fff; }
+  70% {
+    fill: #fff; }
+  100% {
+    fill: #E0E0E0; } }
+@-o-keyframes fill {
+  0% {
+    fill: #E0E0E0; }
+  1% {
+    fill: #fff; }
+  70% {
+    fill: #fff; }
+  100% {
+    fill: #E0E0E0; } }
+@keyframes fill {
+  0% {
+    fill: #E0E0E0; }
+  1% {
+    fill: #fff; }
+  70% {
+    fill: #fff; }
+  100% {
+    fill: #E0E0E0; } }
+@-webkit-keyframes dash {
+  0% {
+    stroke-dashoffset: 2853.59228515625; }
+  70% {
+    stroke-dashoffset: 0; }
+  71% {
+    opacity: 1; }
+  72% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+@-moz-keyframes dash {
+  0% {
+    stroke-dashoffset: 2853.59228515625; }
+  70% {
+    stroke-dashoffset: 0; }
+  71% {
+    opacity: 1; }
+  72% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+@-o-keyframes dash {
+  0% {
+    stroke-dashoffset: 2853.59228515625; }
+  70% {
+    stroke-dashoffset: 0; }
+  71% {
+    opacity: 1; }
+  72% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 2853.59228515625; }
+  70% {
+    stroke-dashoffset: 0; }
+  71% {
+    opacity: 1; }
+  72% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+/* line 60, ../../source/itsvicssx/scss-inuitcss/ui-mcmaniti/animate/_stroke.scss */
+.brand-animate--fill {
+  fill: #333;
+  -webkit-animation: fill 3s ease-in-out infinite;
+  -moz-animation: fill 3s ease-in-out infinite;
+  -o-animation: fill 3s ease-in-out infinite;
+  animation: fill 3s ease-in-out infinite; }
+
+/* line 65, ../../source/itsvicssx/scss-inuitcss/ui-mcmaniti/animate/_stroke.scss */
+.brand-animate--stroke {
+  stroke-dasharray: 2853.59228515625;
+  stroke-dashoffset: 2853.59228515625;
+  -webkit-animation: dash 3s ease-in-out infinite;
+  -moz-animation: dash 3s ease-in-out infinite;
+  -o-animation: dash 3s ease-in-out infinite;
+  animation: dash 3s ease-in-out infinite; }
