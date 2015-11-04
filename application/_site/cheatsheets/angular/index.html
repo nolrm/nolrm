@@ -66,71 +66,122 @@
 
 <h4 id="component-based-directiveshttpswwwairpaircomangularjspostscomponent-based-angularjs-directives4-refactoring-components"><a href="https://www.airpair.com/angularjs/posts/component-based-angularjs-directives#4-refactoring-components">Component Based Directives</a></h4>
 
-<div class="highlight"><pre><code class="js"><span class="lineno"> 1</span>   <span class="p">;</span>
-<span class="lineno"> 2</span> <span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-<span class="lineno"> 3</span>   <span class="s1">&#39;use strict&#39;</span><span class="p">;</span>
-<span class="lineno"> 4</span> 
-<span class="lineno"> 5</span>   <span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="s1">&#39;testModule&#39;</span><span class="p">,</span> <span class="p">[])</span>
-<span class="lineno"> 6</span> 
-<span class="lineno"> 7</span>   <span class="p">.</span><span class="nx">directive</span><span class="p">(</span><span class="s1">&#39;testDirective&#39;</span><span class="p">,</span> <span class="p">[</span>
-<span class="lineno"> 8</span>     <span class="kd">function</span><span class="p">(</span><span class="nx">EccAPI</span><span class="p">)</span> <span class="p">{</span>
-<span class="lineno"> 9</span>       <span class="k">return</span> <span class="p">{</span>
-<span class="lineno">10</span>         <span class="nx">restrict</span><span class="o">:</span> <span class="s1">&#39;E&#39;</span><span class="p">,</span>
-<span class="lineno">11</span>         <span class="nx">scope</span><span class="o">:</span> <span class="p">{</span>
-<span class="lineno">12</span>           <span class="nx">test</span><span class="o">:</span> <span class="s1">&#39;@&#39;</span>
-<span class="lineno">13</span>         <span class="p">},</span>
-<span class="lineno">14</span>         <span class="nx">templateUrl</span><span class="o">:</span> <span class="s1">&#39;/component-tpl.html&#39;</span><span class="p">,</span>
-<span class="lineno">15</span>         <span class="nx">bindToController</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
-<span class="lineno">16</span>         <span class="nx">controllerAs</span><span class="o">:</span> <span class="s1">&#39;testdir&#39;</span><span class="p">,</span>
-<span class="lineno">17</span>         <span class="nx">controller</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">$scope</span><span class="p">,</span> <span class="nx">$element</span><span class="p">,</span> <span class="nx">$attrs</span><span class="p">,</span> <span class="nx">$transclude</span><span class="p">)</span> <span class="p">{</span>
-<span class="lineno">18</span>           <span class="k">this</span><span class="p">.</span><span class="nx">clickBtn</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-<span class="lineno">19</span>             <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">$scope</span><span class="p">);</span>
-<span class="lineno">20</span>             <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;woah&#39;</span><span class="p">);</span>
-<span class="lineno">21</span>           <span class="p">}</span>
-<span class="lineno">22</span>         <span class="p">},</span>
-<span class="lineno">23</span>         <span class="nx">link</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">$scope</span><span class="p">,</span> <span class="nx">$element</span><span class="p">,</span> <span class="nx">$attrs</span><span class="p">)</span> <span class="p">{</span>
-<span class="lineno">24</span> 
-<span class="lineno">25</span>         <span class="p">}</span>
-<span class="lineno">26</span>       <span class="p">}</span>
-<span class="lineno">27</span>     <span class="p">}</span>
-<span class="lineno">28</span>   <span class="p">])</span>
-<span class="lineno">29</span> <span class="p">}());</span>
-</code></pre></div>
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29</pre></td><td class="code"><pre>  <span class="p">;</span>
+<span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="s1">'use strict'</span><span class="p">;</span>
+
+  <span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="s1">'testModule'</span><span class="p">,</span> <span class="p">[])</span>
+
+  <span class="p">.</span><span class="nx">directive</span><span class="p">(</span><span class="s1">'testDirective'</span><span class="p">,</span> <span class="p">[</span>
+    <span class="kd">function</span><span class="p">(</span><span class="nx">EccAPI</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="p">{</span>
+        <span class="na">restrict</span><span class="p">:</span> <span class="s1">'E'</span><span class="p">,</span>
+        <span class="na">scope</span><span class="p">:</span> <span class="p">{</span>
+          <span class="na">test</span><span class="p">:</span> <span class="s1">'@'</span>
+        <span class="p">},</span>
+        <span class="na">templateUrl</span><span class="p">:</span> <span class="s1">'/component-tpl.html'</span><span class="p">,</span>
+        <span class="na">bindToController</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+        <span class="na">controllerAs</span><span class="p">:</span> <span class="s1">'testdir'</span><span class="p">,</span>
+        <span class="na">controller</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">$scope</span><span class="p">,</span> <span class="nx">$element</span><span class="p">,</span> <span class="nx">$attrs</span><span class="p">,</span> <span class="nx">$transclude</span><span class="p">)</span> <span class="p">{</span>
+          <span class="k">this</span><span class="p">.</span><span class="nx">clickBtn</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">$scope</span><span class="p">);</span>
+            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'woah'</span><span class="p">);</span>
+          <span class="p">}</span>
+        <span class="p">},</span>
+        <span class="na">link</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">$scope</span><span class="p">,</span> <span class="nx">$element</span><span class="p">,</span> <span class="nx">$attrs</span><span class="p">)</span> <span class="p">{</span>
+
+        <span class="p">}</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+  <span class="p">])</span>
+<span class="p">}());</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
 <h4 id="factory-patternshttpstackoverflowcomquestions14056874how-to-emit-events-from-a-factory"><a href="http://stackoverflow.com/questions/14056874/how-to-emit-events-from-a-factory">Factory Patterns</a></h4>
 
-<div class="highlight"><pre><code class="js"><span class="lineno">1</span> <span class="nx">myApp</span><span class="p">.</span><span class="nx">factory</span><span class="p">(</span><span class="s1">&#39;myFactory&#39;</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;$rootScope&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">$rootScope</span><span class="p">)</span> <span class="p">{</span>
-<span class="lineno">2</span>     <span class="nx">$rootScope</span><span class="p">.</span><span class="nx">$emit</span><span class="p">(</span><span class="s2">&quot;myEvent&quot;</span><span class="p">,</span> <span class="nx">myEventParams</span><span class="p">);</span>
-<span class="lineno">3</span> <span class="p">}]);</span>
-</code></pre></div>
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3</pre></td><td class="code"><pre><span class="nx">myApp</span><span class="p">.</span><span class="nx">factory</span><span class="p">(</span><span class="s1">'myFactory'</span><span class="p">,</span> <span class="p">[</span><span class="s1">'$rootScope'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">$rootScope</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">$rootScope</span><span class="p">.</span><span class="nx">$emit</span><span class="p">(</span><span class="s2">"myEvent"</span><span class="p">,</span> <span class="nx">myEventParams</span><span class="p">);</span>
+<span class="p">}]);</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
 <h4 id="ng-repeat">ng-repeat</h4>
 
 <p>ng-repeat that will display loading or if empty set of data.</p>
 
-<div class="highlight"><pre><code class="js"><span class="lineno"> 1</span> <span class="o">&lt;</span><span class="nx">ul</span><span class="o">&gt;</span>
-<span class="lineno"> 2</span>   <span class="o">&lt;</span><span class="nx">li</span> <span class="nx">ng</span><span class="o">-</span><span class="k">if</span><span class="o">=</span><span class="s2">&quot;outstanding == undefined&quot;</span><span class="o">&gt;</span>
-<span class="lineno"> 3</span>     <span class="o">&lt;</span><span class="nx">i</span> <span class="kr">class</span><span class="o">=</span><span class="s2">&quot;fa fa-refresh fa-spin&quot;</span><span class="o">&gt;&lt;</span><span class="err">/i&gt; Loading...</span>
-<span class="lineno"> 4</span>   <span class="o">&lt;</span><span class="err">/li&gt;</span>
-<span class="lineno"> 5</span>   <span class="o">&lt;</span><span class="nx">li</span> <span class="nx">ng</span><span class="o">-</span><span class="k">if</span><span class="o">=</span><span class="s2">&quot;outstanding.items.length === 0&quot;</span><span class="o">&gt;</span>
-<span class="lineno"> 6</span>     <span class="nx">Nothing</span> <span class="nx">is</span> <span class="nx">Available</span><span class="p">...</span>
-<span class="lineno"> 7</span>   <span class="o">&lt;</span><span class="err">/li&gt;</span>
-<span class="lineno"> 8</span>   <span class="o">&lt;</span><span class="nx">li</span> <span class="nx">ng</span><span class="o">-</span><span class="k">if</span><span class="o">=</span><span class="s2">&quot;item.type != &#39;script&#39;&quot;</span> <span class="nx">ng</span><span class="o">-</span><span class="nx">repeat</span><span class="o">=</span><span class="s2">&quot;item in outstanding.items&quot;</span><span class="o">&gt;</span>
-<span class="lineno"> 9</span>     <span class="o">&lt;</span><span class="nx">img</span> <span class="nx">placeholdit</span> <span class="nx">width</span><span class="o">=</span><span class="s2">&quot;60&quot;</span> <span class="nx">height</span><span class="o">=</span><span class="s2">&quot;60&quot;</span> <span class="nx">size</span><span class="o">=</span><span class="s2">&quot;60x60&quot;</span> <span class="nx">ng</span><span class="o">-</span><span class="nx">src</span><span class="o">=</span><span class="s2">&quot;item.url&quot;</span><span class="o">&gt;</span>
-<span class="lineno">10</span>     <span class="o">&lt;</span><span class="nx">div</span> <span class="kr">class</span><span class="o">=</span><span class="s2">&quot;item-meta&quot;</span><span class="o">&gt;</span>
-<span class="lineno">11</span>       <span class="o">&lt;</span><span class="nx">h4</span><span class="o">&gt;&lt;</span><span class="err">/h4&gt;</span>
-<span class="lineno">12</span>       <span class="o">&lt;</span><span class="nx">span</span> <span class="kr">class</span><span class="o">=</span><span class="s2">&quot;description&quot;</span><span class="o">&gt;</span>
-<span class="lineno">13</span>        <span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;&lt;</span><span class="err">/p&gt;</span>
-<span class="lineno">14</span>       <span class="o">&lt;</span><span class="err">/span&gt;</span>
-<span class="lineno">15</span>     <span class="o">&lt;</span><span class="err">/div&gt;</span>
-<span class="lineno">16</span>     <span class="o">&lt;</span><span class="nx">div</span> <span class="kr">class</span><span class="o">=</span><span class="s2">&quot;actions&quot;</span><span class="o">&gt;</span>
-<span class="lineno">17</span>       <span class="o">&lt;</span><span class="nx">button</span> <span class="nx">ng</span><span class="o">-</span><span class="nx">click</span><span class="o">=</span><span class="s2">&quot;download(item, outstanding.hashToken)&quot;</span><span class="o">&gt;</span>
-<span class="lineno">18</span>         <span class="o">&lt;</span><span class="nx">i</span> <span class="kr">class</span><span class="o">=</span><span class="s2">&quot;fa fa-cloud-download&quot;</span><span class="o">&gt;&lt;</span><span class="err">/i&gt; Button Click</span>
-<span class="lineno">19</span>       <span class="o">&lt;</span><span class="err">/button&gt;</span>
-<span class="lineno">20</span>     <span class="o">&lt;</span><span class="err">/div&gt;</span>
-<span class="lineno">21</span>   <span class="o">&lt;</span><span class="err">/li&gt;</span>
-<span class="lineno">22</span> <span class="o">&lt;</span><span class="err">/ul&gt;</span>
-</code></pre></div>
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22</pre></td><td class="code"><pre><span class="o">&lt;</span><span class="nx">ul</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="nx">li</span> <span class="nx">ng</span><span class="o">-</span><span class="k">if</span><span class="o">=</span><span class="s2">"outstanding == undefined"</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="nx">i</span> <span class="kr">class</span><span class="o">=</span><span class="s2">"fa fa-refresh fa-spin"</span><span class="o">&gt;&lt;</span><span class="sr">/i&gt; Loading..</span><span class="err">.
+</span>  <span class="o">&lt;</span><span class="sr">/li</span><span class="err">&gt;
+</span>  <span class="o">&lt;</span><span class="nx">li</span> <span class="nx">ng</span><span class="o">-</span><span class="k">if</span><span class="o">=</span><span class="s2">"outstanding.items.length === 0"</span><span class="o">&gt;</span>
+    <span class="nx">Nothing</span> <span class="nx">is</span> <span class="nx">Available</span><span class="p">...</span>
+  <span class="o">&lt;</span><span class="sr">/li</span><span class="err">&gt;
+</span>  <span class="o">&lt;</span><span class="nx">li</span> <span class="nx">ng</span><span class="o">-</span><span class="k">if</span><span class="o">=</span><span class="s2">"item.type != 'script'"</span> <span class="nx">ng</span><span class="o">-</span><span class="nx">repeat</span><span class="o">=</span><span class="s2">"item in outstanding.items"</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="nx">img</span> <span class="nx">placeholdit</span> <span class="nx">width</span><span class="o">=</span><span class="s2">"60"</span> <span class="nx">height</span><span class="o">=</span><span class="s2">"60"</span> <span class="nx">size</span><span class="o">=</span><span class="s2">"60x60"</span> <span class="nx">ng</span><span class="o">-</span><span class="nx">src</span><span class="o">=</span><span class="s2">"item.url"</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="nx">div</span> <span class="kr">class</span><span class="o">=</span><span class="s2">"item-meta"</span><span class="o">&gt;</span>
+      <span class="o">&lt;</span><span class="nx">h4</span><span class="o">&gt;&lt;</span><span class="sr">/h4</span><span class="err">&gt;
+</span>      <span class="o">&lt;</span><span class="nx">span</span> <span class="kr">class</span><span class="o">=</span><span class="s2">"description"</span><span class="o">&gt;</span>
+       <span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;&lt;</span><span class="sr">/p</span><span class="err">&gt;
+</span>      <span class="o">&lt;</span><span class="sr">/span</span><span class="err">&gt;
+</span>    <span class="o">&lt;</span><span class="sr">/div</span><span class="err">&gt;
+</span>    <span class="o">&lt;</span><span class="nx">div</span> <span class="kr">class</span><span class="o">=</span><span class="s2">"actions"</span><span class="o">&gt;</span>
+      <span class="o">&lt;</span><span class="nx">button</span> <span class="nx">ng</span><span class="o">-</span><span class="nx">click</span><span class="o">=</span><span class="s2">"download(item, outstanding.hashToken)"</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="nx">i</span> <span class="kr">class</span><span class="o">=</span><span class="s2">"fa fa-cloud-download"</span><span class="o">&gt;&lt;</span><span class="sr">/i&gt; Button Clic</span><span class="err">k
+</span>      <span class="o">&lt;</span><span class="sr">/button</span><span class="err">&gt;
+</span>    <span class="o">&lt;</span><span class="sr">/div</span><span class="err">&gt;
+</span>  <span class="o">&lt;</span><span class="sr">/li</span><span class="err">&gt;
+</span><span class="o">&lt;</span><span class="sr">/ul&gt;</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
 
 </div>

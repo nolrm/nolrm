@@ -16,7 +16,7 @@
     VARS.SCSS
 \*------------------------------------*/
 /**
- * Any variables you find set in inuit.css’ `_vars.scss` that you do not wish to
+ * Any variables you find set in inuit.cssΓÇÖ `_vars.scss` that you do not wish to
  * keep, simply redefine here. This means that if inuit.css, for example, sets
  * your `$base-font-size` at 16px and you wish it to be 14px, simply redeclare
  * that variable in this file. inuit.css ignores its own variables in favour of
@@ -27,7 +27,7 @@
     $OBJECTS-AND-ABSTRACTIONS
 \*------------------------------------*/
 /**
- * All of inuit.css’ objects and abstractions are initially turned off by
+ * All of inuit.cssΓÇÖ objects and abstractions are initially turned off by
  * default. This means that you start any project with as little as possible,
  * and introducing objects and abstractions is as simple as switching the
  * following variables to `true`.
@@ -36,7 +36,7 @@
     $OVERRIDES
 \*------------------------------------*/
 /**
- * Place any variables that should override inuit.css’ defaults here.
+ * Place any variables that should override inuit.cssΓÇÖ defaults here.
  */
 /*------------------------------------*\
     $CUSTOM
@@ -98,7 +98,7 @@
     $CONTENTS
 \*------------------------------------*/
 /**
- * CONTENTS............You’re reading it!
+ * CONTENTS............YouΓÇÖre reading it!
  * WARNING.............Here be dragons!
  * IMPORTS.............Begin importing the sections below
  *
@@ -176,7 +176,7 @@
     $DEFAULTS
 \*------------------------------------*/
 /**
- * inuit.css’ default variables. Redefine these in your `_vars.scss` file (found
+ * inuit.cssΓÇÖ default variables. Redefine these in your `_vars.scss` file (found
  * in the inuit.css-web-template) to override them.
  */
 /*------------------------------------*\
@@ -203,7 +203,7 @@
  * Base font-family.
  */
 /**
- * Default colour for objects’ borders etc.
+ * Default colour for objectsΓÇÖ borders etc.
  */
 /*------------------------------------*\
     $RESPONSIVE
@@ -241,7 +241,7 @@
  * English quote marks?
  */
 /**
- * If you want English quotes then please do not edit these; they’re only here
+ * If you want English quotes then please do not edit these; theyΓÇÖre only here
  * because Sass needs them.
  */
 /**
@@ -360,11 +360,11 @@
 /**
  * Media query mixin.
  *
- * It’s not great practice to define solid breakpoints up-front, preferring to
- * modify your design when it needs it, rather than assuming you’ll want a
- * change at ‘mobile’. However, as inuit.css is required to take a hands off
+ * ItΓÇÖs not great practice to define solid breakpoints up-front, preferring to
+ * modify your design when it needs it, rather than assuming youΓÇÖll want a
+ * change at ΓÇÿmobileΓÇÖ. However, as inuit.css is required to take a hands off
  * approach to design decisions, this is the closest we can get to baked-in
- * responsiveness. It’s flexible enough to allow you to set your own breakpoints
+ * responsiveness. ItΓÇÖs flexible enough to allow you to set your own breakpoints
  * but solid enough to be frameworkified.
  *
  * We define some broad breakpoints in our vars file that are picked up here
@@ -390,7 +390,7 @@
 /*
  * Correct `block` display not defined in IE 8/9.
  */
-/* line 22, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
+/* line 11, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
 article,
 aside,
 details,
@@ -408,7 +408,7 @@ summary {
 /*
  * Correct `inline-block` display not defined in IE 8/9.
  */
-/* line 32, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
+/* line 30, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
 audio,
 canvas,
 video {
@@ -467,7 +467,7 @@ a:focus {
 /*
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 95, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
+/* line 94, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
 a:active,
 a:hover {
   outline: 0; }
@@ -494,7 +494,7 @@ abbr[title] {
 /*
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 126, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
+/* line 125, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
 b,
 strong {
   font-weight: bold; }
@@ -526,7 +526,7 @@ mark {
 /*
  * Correct font family set oddly in Safari 5 and Chrome.
  */
-/* line 164, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
+/* line 161, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
 code,
 kbd,
 pre,
@@ -558,7 +558,7 @@ small {
 /*
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 198, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
+/* line 197, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -629,7 +629,7 @@ legend {
  * 2. Correct font size not being inherited in all browsers.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 278, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
+/* line 275, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
 button,
 input,
 select,
@@ -645,7 +645,7 @@ textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 290, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
+/* line 289, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
 button,
 input {
   line-height: normal; }
@@ -656,7 +656,7 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-/* line 302, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
+/* line 301, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
 button,
 select {
   text-transform: none; }
@@ -668,7 +668,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 317, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
+/* line 314, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -681,7 +681,7 @@ input[type="submit"] {
 /*
  * Re-set default cursor for disabled elements.
  */
-/* line 327, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
+/* line 326, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default; }
@@ -690,7 +690,7 @@ html input[disabled] {
  * 1. Address box sizing set to `content-box` in IE 8/9.
  * 2. Remove excess padding in IE 8/9.
  */
-/* line 337, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
+/* line 336, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -716,7 +716,7 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 361, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
+/* line 360, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -724,7 +724,7 @@ input[type="search"]::-webkit-search-decoration {
 /*
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 370, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
+/* line 369, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -760,9 +760,9 @@ table {
  * As per: csswizardry.com/2011/10/reset-restarted
  */
 /**
-* Let’s make the box model all nice, shall we...?
+* LetΓÇÖs make the box model all nice, shall we...?
 */
-/* line 16, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_reset.scss */
+/* line 14, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_reset.scss */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -773,7 +773,7 @@ table {
 /**
  * The usual...
  */
-/* line 30, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_reset.scss */
+/* line 25, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_reset.scss */
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 dl, dd, ol, ul,
@@ -805,7 +805,7 @@ ins {
   border-bottom: 1px solid; }
 
 /**
- * So that `alt` text is visually offset if images don’t load.
+ * So that `alt` text is visually offset if images donΓÇÖt load.
  */
 /* line 59, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_reset.scss */
 img {
@@ -814,7 +814,7 @@ img {
 /**
  * Give form elements some cursor interactions...
  */
-/* line 71, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_reset.scss */
+/* line 66, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_reset.scss */
 label,
 input,
 textarea,
@@ -823,7 +823,7 @@ select,
 option {
   cursor: pointer; }
 
-/* line 77, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_reset.scss */
+/* line 74, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_reset.scss */
 .text-input:active,
 .text-input:focus,
 textarea:active,
@@ -857,7 +857,7 @@ textarea:focus {
 /**
  * Base elements
  */
-/* line 24, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_shared.scss */
+/* line 12, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_shared.scss */
 h1, h2, h3, h4, h5, h6, hgroup,
 ul, ol, dl,
 blockquote, p, address,
@@ -1010,7 +1010,7 @@ hgroup .hN {
  * The `.lede` class is used to make the introductory text (usually a paragraph)
  * of a document slightly larger.
  */
-/* line 9, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_paragraphs.scss */
+/* line 8, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_paragraphs.scss */
 .lede,
 .lead {
   font-size: 18px;
@@ -1023,7 +1023,7 @@ hgroup .hN {
 /**
  * A series of classes for setting tiny type; for use in smallprint etc.
  */
-/* line 8, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_smallprint.scss */
+/* line 7, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_smallprint.scss */
 .smallprint,
 .milli {
   font-size: 12px;
@@ -1050,7 +1050,7 @@ hgroup .hN {
  */
 /* line 20, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_quotes.scss */
 q {
-  quotes: "\2018" "\2019" "\201C" "\201D"; }
+  quotes: "‘" "’" "\\201C" "\\201D"; }
   /* line 23, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_quotes.scss */
   q:before {
     content: "\2018";
@@ -1070,10 +1070,10 @@ q {
 
 /* line 42, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_quotes.scss */
 blockquote {
-  quotes: "\201C" "\201D"; }
+  quotes: "\\201C" "\\201D"; }
   /* line 45, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_quotes.scss */
   blockquote p:before {
-    content: "\201C";
+    content: "\\201C";
     content: open-quote; }
   /* line 49, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_quotes.scss */
   blockquote p:after {
@@ -1081,7 +1081,7 @@ blockquote {
     content: no-close-quote; }
   /* line 53, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_quotes.scss */
   blockquote p:last-of-type:after {
-    content: "\201D";
+    content: "\\201D";
     content: close-quote; }
   /* line 58, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_quotes.scss */
   blockquote q:before {
@@ -1104,7 +1104,7 @@ blockquote {
 /* line 78, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_quotes.scss */
 blockquote {
   /**
-   * .4em is roughly equal to the width of the opening “ that we wish to hang.
+   * .4em is roughly equal to the width of the opening ΓÇ£ that we wish to hang.
    */
   text-indent: -0.41em; }
   /* line 84, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_quotes.scss */
@@ -1168,7 +1168,7 @@ pre mark {
  *
  * 1. Make the list look like code.
  * 2. Give the list flush numbers with a leading zero.
- * 3. Make sure lines of code don’t wrap.
+ * 3. Make sure lines of code donΓÇÖt wrap.
  * 4. Give the code form by forcing the `code` to honour white-space.
  */
 /* line 54, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_code.scss */
@@ -1204,7 +1204,7 @@ img {
 /**
  * Non-fluid images if you specify `width` and/or `height` attributes.
  */
-/* line 19, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_images.scss */
+/* line 18, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_images.scss */
 img[width],
 img[height] {
   max-width: none; }
@@ -1269,7 +1269,7 @@ figure > img {
 /**
  * Remove vertical spacing from nested lists.
  */
-/* line 9, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_lists.scss */
+/* line 8, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_lists.scss */
 li > ul,
 li > ol {
   margin-bottom: 0; }
@@ -1343,13 +1343,13 @@ li > ol {
 table {
   width: 100%; }
 
-/* line 62, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_tables.scss */
+/* line 61, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_tables.scss */
 th,
 td {
   padding: 6px;
   text-align: left; }
   @media screen and (min-width: 480px) {
-    /* line 62, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_tables.scss */
+    /* line 61, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_tables.scss */
     th,
     td {
       padding: 12px; } }
@@ -1495,10 +1495,10 @@ td {
 /**
  * Bordered tables
  */
-/* line 129, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_tables.scss */
+/* line 128, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_tables.scss */
 .table--bordered th,
 .table--bordered td {
-  border: 1px solid #cccccc; }
+  border: 1px solid #ccc; }
   /* line 132, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_tables.scss */
   .table--bordered th:empty,
   .table--bordered td:empty {
@@ -1547,7 +1547,7 @@ fieldset {
    <input type=password class=text-input>
  *
  */
-/* line 25, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_forms.scss */
+/* line 24, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_forms.scss */
 .text-input,
 textarea {
   /**
@@ -1608,7 +1608,7 @@ textarea {
    </li>
  *
  */
-/* line 90, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_forms.scss */
+/* line 89, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_forms.scss */
 label,
 .label {
   display: block; }
@@ -1647,7 +1647,7 @@ label,
 /*
  * Labels in check-lists
  */
-/* line 129, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_forms.scss */
+/* line 127, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_forms.scss */
 .check-label,
 .check-list label,
 .check-list .label {
@@ -1681,7 +1681,7 @@ label,
    <small class=extra-help>.edu emails only</small>
  *
  * We leave the help text in the document flow and merely set it to
- * `visibility:hidden;`. This means that it won’t interfere with anything once
+ * `visibility:hidden;`. This means that it wonΓÇÖt interfere with anything once
  * it reappears.
  *
  */
@@ -1691,7 +1691,7 @@ label,
   display: inline-block;
   visibility: hidden; }
 
-/* line 172, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_forms.scss */
+/* line 171, ../../source/itsvicssx/scss-inuitcss/inuit.css/base/_forms.scss */
 .text-input:active + .extra-help,
 .text-input:focus + .extra-help {
   visibility: visible; }
@@ -1787,7 +1787,7 @@ label,
        </div>
    </div>
  *
- * It’s pretty poorly named I’m afraid, but it works...
+ * ItΓÇÖs pretty poorly named IΓÇÖm afraid, but it works...
  *
  * Demo: jsfiddle.net/inuitcss/ufUh2
  *
@@ -1883,7 +1883,7 @@ html.flexbox {
 .nav {
   list-style: none;
   margin-left: 0; }
-  /* line 29, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_nav.scss */
+  /* line 28, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_nav.scss */
   .nav > li,
   .nav > li > a {
     display: inline-block;
@@ -1993,7 +1993,7 @@ html.flexbox {
 \*------------------------------------*/
 /**
  * Link-group nav, used for displaying related options. Extends `.nav--block`
- * but could also extend `.nav--fit`. Extend with colours and ‘current states’
+ * but could also extend `.nav--fit`. Extend with colours and ΓÇÿcurrent statesΓÇÖ
  * in your theme stylesheet.
  *
   <ul class="nav  options">
@@ -2008,7 +2008,7 @@ html.flexbox {
  */
 /* line 26, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_options.scss */
 .options > li > a {
-  border: 0 solid #cccccc;
+  border: 0 solid #ccc;
   border-width: 1px;
   border-left-width: 0; }
 /* line 32, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_options.scss */
@@ -2120,7 +2120,7 @@ html.flexbox {
  */
 /* line 51, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_breadcrumb.scss */
 .breadcrumb > li + li[data-breadcrumb]:before {
-  content: attr(data-breadcrumb) "\00A0"; }
+  content: attr(data-breadcrumb) " "; }
 
 /**
  * Denote the root of the tree.
@@ -2163,7 +2163,7 @@ html.flexbox {
   float: right;
   margin-left: 24px; }
 
-/* line 37, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_media.scss */
+/* line 36, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_media.scss */
 .media__img img,
 .media__img--rev img {
   display: block; }
@@ -2172,7 +2172,7 @@ html.flexbox {
 .media__body {
   overflow: hidden; }
 
-/* line 45, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_media.scss */
+/* line 44, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_media.scss */
 .media__body,
 .media__body > :last-child {
   margin-bottom: 0; }
@@ -2210,7 +2210,7 @@ html.flexbox {
   line-height: 2; }
 
 /**
- * Wait for a certain breakpoint to trigger ‘proper' marginalia. Up to this point,
+ * Wait for a certain breakpoint to trigger ΓÇÿproper' marginalia. Up to this point,
  * marginalia are inline with the other text.
  */
 @media (min-width: 1024px) {
@@ -2218,7 +2218,7 @@ html.flexbox {
   .marginalia {
     position: relative; }
 
-  /* line 32, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_marginalia.scss */
+  /* line 31, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_marginalia.scss */
   .marginalia__body,
   .marginalia__body--right {
     position: absolute; }
@@ -2251,7 +2251,7 @@ html.flexbox {
  * Demo: jsfiddle.net/inuitcss/u8pV3
  *
  */
-/* line 18, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_island.scss */
+/* line 17, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_island.scss */
 .island,
 .islet {
   display: block; }
@@ -2260,7 +2260,7 @@ html.flexbox {
 .island {
   padding: 24px; }
 
-/* line 26, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_island.scss */
+/* line 25, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_island.scss */
 .island > :last-child,
 .islet > :last-child {
   margin-bottom: 0; }
@@ -2290,11 +2290,11 @@ html.flexbox {
  * Demo: jsfiddle.net/inuitcss/hR57q
  *
  */
-/* line 24, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_block-list.scss */
+/* line 23, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_block-list.scss */
 .block-list, .matrix,
 .block-list > li,
 .matrix > li {
-  border: 0 solid #cccccc; }
+  border: 0 solid #ccc; }
 
 /* line 28, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_block-list.scss */
 .block-list, .matrix {
@@ -2386,7 +2386,7 @@ html.flexbox {
  * Unfortunately we have to qualify this selector in order to bring its
  * specificity above the `.[number]-cols > li` selectors above.
  */
-/* line 85, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_matrix.scss */
+/* line 84, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_matrix.scss */
 .matrix > .all-cols,
 .multi-list > .all-cols {
   width: 100%; }
@@ -2411,7 +2411,7 @@ html.flexbox {
        <li class=first><b class=split__title>1st place</b> Bob</li>
        <li class=second><b class=split__title>2nd place</b> Lilly</li>
        <li class=third><b class=split__title>3rd place</b> Ted</li>
-   </ol>​
+   </ol>ΓÇï
  *
  * Demo: jsfiddle.net/inuitcss/9gZW7
  *
@@ -2458,7 +2458,7 @@ html.flexbox {
   width: 100%;
   text-align: center; }
 
-/* line 33, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_this-or-this.scss */
+/* line 32, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_this-or-this.scss */
 .this-or-this__this,
 .this-or-this__or {
   display: table-cell;
@@ -2481,14 +2481,14 @@ html.flexbox {
  * Demo: jsfiddle.net/inuitcss/rt9M3
  *
  */
-/* line 23, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_link-complex.scss */
+/* line 20, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_link-complex.scss */
 .link-complex,
 .link-complex:hover,
 .link-complex:active,
 .link-complex:focus {
   text-decoration: none; }
 
-/* line 28, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_link-complex.scss */
+/* line 26, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_link-complex.scss */
 .link-complex:hover .link-complex__target,
 .link-complex:active .link-complex__target,
 .link-complex:focus .link-complex__target {
@@ -2514,7 +2514,7 @@ html.flexbox {
  * Demo: jsfiddle.net/inuitcss/B52HG
  *
  */
-/* line 24, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_flyout.scss */
+/* line 23, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_flyout.scss */
 .flyout,
 .flyout--alt {
   position: relative;
@@ -2532,10 +2532,10 @@ html.flexbox {
 
 /**
  * Bring the flyouts into view when you hover their parents.
- * Two different types of flyout; ‘regular’ (`.flyout`) and ‘alternative’
+ * Two different types of flyout; ΓÇÿregularΓÇÖ (`.flyout`) and ΓÇÿalternativeΓÇÖ
  * (`.flyout--alt`).
  */
-/* line 44, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_flyout.scss */
+/* line 43, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_flyout.scss */
 .flyout:hover,
 .flyout--alt:hover {
   overflow: visible; }
@@ -2573,7 +2573,7 @@ html.flexbox {
     $SPRITE
 \*------------------------------------*/
 /**
- * Giving an element a class of `.sprite` will throw it into ‘sprite’ mode and apply
+ * Giving an element a class of `.sprite` will throw it into ΓÇÿspriteΓÇÖ mode and apply
  * a background image e.g.:
  *
    <a class="sprite  sprite--question-mark">More info&hellip;</a>
@@ -2582,13 +2582,13 @@ html.flexbox {
  *
    <a href=#><i class="sprite  sprite--question-mark"></i> Help and FAQ</a>
  *
- * Giving an element a class of `.icon` will throw it into ‘icon’ mode and will
+ * Giving an element a class of `.icon` will throw it into ΓÇÿiconΓÇÖ mode and will
  * not add a background, but should be used for icon fonts and is populated
  * through a `data-icon` attribute and the `:after` pseudo-element, e.g.:
  *
    <a href=#><i class=icon data-icon="&#xF000;"></i> View your favourites</a>
  *
- * Where ‘&#xF000;’ might map to a star in your particular icon font.
+ * Where ΓÇÿ&#xF000;ΓÇÖ might map to a star in your particular icon font.
  *
  * These all require extension in your theme stylesheet, e.g. in your own CSS:
  *
@@ -2601,7 +2601,7 @@ html.flexbox {
  * Demo: jsfiddle.net/inuitcss/6TKuS
  *
  */
-/* line 36, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_sprite.scss */
+/* line 35, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_sprite.scss */
 .sprite,
 .icon {
   display: inline-block;
@@ -2610,7 +2610,7 @@ html.flexbox {
   vertical-align: middle;
   zoom: 1;
   /**
-   * So using `.icon` on certain elements doesn’t make a visual difference.
+   * So using `.icon` on certain elements doesnΓÇÖt make a visual difference.
    */
   font-style: normal;
   font-weight: normal;
@@ -2746,11 +2746,11 @@ html.flexbox {
  * 4. Make buttons inherit font styles.
  * 5. Force all elements using beautons to appear clickable.
  * 6. Normalise box model styles.
- * 7. If the button’s text is 1em, and the button is (3 * font-size) tall, then
+ * 7. If the buttonΓÇÖs text is 1em, and the button is (3 * font-size) tall, then
  *    there is 1em of space above and below that text. We therefore apply 1em
  *    of space to the left and right, as padding, to keep consistent spacing.
  * 8. Basic cosmetics for default buttons. Change or override at will.
- * 9. Don’t allow buttons to have underlines; it kinda ruins the illusion.
+ * 9. DonΓÇÖt allow buttons to have underlines; it kinda ruins the illusion.
  */
 /* line 56, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_beautons.scss */
 .btn {
@@ -2783,11 +2783,11 @@ html.flexbox {
   border-radius: 4px;
   /* [8] */ }
 
-/* line 76, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_beautons.scss */
+/* line 75, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_beautons.scss */
 .btn, .btn:hover {
   text-decoration: none;
   /* [9] */ }
-/* line 81, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_beautons.scss */
+/* line 80, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_beautons.scss */
 .btn:active, .btn:focus {
   outline: none; }
 
@@ -2821,7 +2821,7 @@ html.flexbox {
 /**
  * These buttons will fill the entirety of their container.
  *
- * 1. Remove padding so that widths and paddings don’t conflict.
+ * 1. Remove padding so that widths and paddings donΓÇÖt conflict.
  */
 /* line 122, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_beautons.scss */
 .btn--full {
@@ -2888,7 +2888,7 @@ html.flexbox {
  * 
  * 1. Make the button look like normal text when hovered.
  */
-/* line 200, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_beautons.scss */
+/* line 197, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_beautons.scss */
 .btn--inactive,
 .btn--inactive:hover,
 .btn--inactive:active,
@@ -2938,16 +2938,16 @@ html.flexbox {
    * the same width as the `line-height` set on the `html` element.
    * This allows us to use the `.loz` in almost any `font-size` we wish.
    */
-  min-width: 1.0em;
+  min-width: 1em;
   padding-right: 0.25em;
   padding-left: 0.25em;
   /* =1.50em */
   text-align: center;
-  background-color: #cccccc;
+  background-color: #ccc;
   color: #fff;
   /* Override this color in your theme stylesheet */
   /**
-   * Normally we’d use border-radius:100%; but instead here we just use an
+   * Normally weΓÇÖd use border-radius:100%; but instead here we just use an
    * overly large number; `border-radius:100%;` would create an oval on
    * non-square elements whereas we just want to round the ends of an element.
    */
@@ -2968,7 +2968,7 @@ html.flexbox {
  */
 /* line 12, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_rules.scss */
 .rule {
-  color: #cccccc;
+  color: #ccc;
   border: none;
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -2990,7 +2990,7 @@ html.flexbox {
   border-bottom-style: dashed; }
 
 /**
- * Ornamental rules. Places a § over the rule.
+ * Ornamental rules. Places a ┬º over the rule.
  */
 /* line 41, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_rules.scss */
 .rule--ornament {
@@ -3018,7 +3018,7 @@ html.flexbox {
     $STATS
 \*------------------------------------*/
  /**
-  * Simple object to display key–value statistic-like information, e.g.:
+  * Simple object to display keyΓÇôvalue statistic-like information, e.g.:
   *
     <div class=stat-group>
         <dl class=stat>
@@ -3096,13 +3096,13 @@ html.flexbox {
  * The beauty of combining the greyboxing with inuit.css objects is that any
  * prototyping can quickly be converted into/used as production code.
  *
- * For a more complete prototyping framework, consider Adam Whitcroft’s Proto:
+ * For a more complete prototyping framework, consider Adam WhitcroftΓÇÖs Proto:
  * adamwhitcroft.com/proto
  *
  * Demo: jsfiddle.net/inuitcss/qCXfh/
  *
  */
-/* line 29, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_greybox.scss */
+/* line 28, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_greybox.scss */
 .greybox,
 .graybox {
   font-size: 12px;
@@ -3113,37 +3113,37 @@ html.flexbox {
   background-color: rgba(0, 0, 0, 0.2);
   color: #fff; }
 
-/* line 37, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_greybox.scss */
+/* line 36, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_greybox.scss */
 .greybox a,
 .graybox a {
   color: #fff;
   text-decoration: underline; }
 
 /**
- * All greyboxes will occupy 100% of their parent’s width, but to alter their
+ * All greyboxes will occupy 100% of their parentΓÇÖs width, but to alter their
  * heights we apply incrementally larger line-heights:
  */
-/* line 48, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_greybox.scss */
+/* line 47, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_greybox.scss */
 .greybox--small,
 .graybox--small {
   line-height: 48px; }
 
-/* line 50, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_greybox.scss */
+/* line 49, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_greybox.scss */
 .greybox--medium,
 .graybox--medium {
   line-height: 96px; }
 
-/* line 52, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_greybox.scss */
+/* line 51, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_greybox.scss */
 .greybox--large,
 .graybox--large {
   line-height: 192px; }
 
-/* line 54, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_greybox.scss */
+/* line 53, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_greybox.scss */
 .greybox--huge,
 .graybox--huge {
   line-height: 384px; }
 
-/* line 56, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_greybox.scss */
+/* line 55, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_greybox.scss */
 .greybox--gigantic,
 .graybox--gigantic {
   line-height: 768px; }
@@ -3164,8 +3164,8 @@ html.flexbox {
       padding-left: 12px; } }
 
 /**
- * This is a bit of a magic number; a wrapper this wide will allow us to ‘hang’
- * one icon out of the rest of the page’s ‘grid’. It is used primarily on the
+ * This is a bit of a magic number; a wrapper this wide will allow us to ΓÇÿhangΓÇÖ
+ * one icon out of the rest of the pageΓÇÖs ΓÇÿgridΓÇÖ. It is used primarily on the
  * home page promo boxes.
  */
 /* line 23, ../../source/itsvicssx/scss-inuitcss/inuit.css/objects/_wrapper.scss */
@@ -3310,15 +3310,15 @@ html.flexbox {
   width: 91.666%; }
 
 /**
- * If you have set `$responsive` to ‘true’ in `_vars.scss` then you now have
- * access to these classes. You can define at which breakpoint you’d like an
+ * If you have set `$responsive` to ΓÇÿtrueΓÇÖ in `_vars.scss` then you now have
+ * access to these classes. You can define at which breakpoint youΓÇÖd like an
  * element to be a certain size, e.g.:
  *
  * `<div class="g  one-quarter  lap-one-half  palm-one-whole"> ... </div>`
  *
- * This would create a `div` that, at ‘desktop’ sizes, takes up a quarter of the
- * horizontal space, a half of that space at ‘tablet’ sizes, and goes full width
- * at ‘mobile’ sizes.
+ * This would create a `div` that, at ΓÇÿdesktopΓÇÖ sizes, takes up a quarter of the
+ * horizontal space, a half of that space at ΓÇÿtabletΓÇÖ sizes, and goes full width
+ * at ΓÇÿmobileΓÇÖ sizes.
  *
  * Demo: jsfiddle.net/inuitcss/WS4Ge
  *
@@ -3939,7 +3939,7 @@ html.flexbox {
   .desk-eleven-twelfths {
     width: 91.666%; } }
 /**
- * If you have set the additional `$responsive-extra` variable to ‘true’ in
+ * If you have set the additional `$responsive-extra` variable to ΓÇÿtrueΓÇÖ in
  * `_vars.scss` then you now have access to the following class available to
  * accomodate much larger screen resolutions.
  */
@@ -5455,14 +5455,14 @@ html.flexbox {
  */
 /* line 8, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_brand.scss */
 .brand {
-  font-family: "Roboto", sans-serif!important;
+  font-family: Roboto, sans-serif!important;
   color: #4a8ec2!important; }
 
 /* line 12, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_brand.scss */
 .brand-face {
-  font-family: "Roboto", sans-serif!important; }
+  font-family: Roboto, sans-serif!important; }
 
-/* line 16, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_brand.scss */
+/* line 15, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_brand.scss */
 .brand-color,
 .brand-colour {
   color: #4a8ec2!important; }
@@ -5472,7 +5472,7 @@ html.flexbox {
 \*------------------------------------*/
 /**
  * A series of helper classes to use arbitrarily. Only use a helper class if an
- * element/component doesn’t already have a class to which you could apply this
+ * element/component doesnΓÇÖt already have a class to which you could apply this
  * styling, e.g. if you need to float `.main-nav` left then add `float:left;` to
  * that ruleset as opposed to adding the `.float--left` class to the markup.
  *
@@ -5756,7 +5756,7 @@ html.flexbox {
  */
 /* line 144, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_helper.scss */
 .go:after {
-  content: "\00A0" "\00BB" !important; }
+  content: " " "»" !important; }
 
 /**
  * Apply capital case to an element (usually a `strong`).
@@ -5769,7 +5769,7 @@ html.flexbox {
  * Hide content off-screen without resorting to `display:none;`, also provide
  * breakpoint specific hidden elements.
  */
-/* line 172, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_helper.scss */
+/* line 171, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_helper.scss */
 .accessibility,
 .visuallyhidden {
   border: 0 !important;
@@ -5782,7 +5782,7 @@ html.flexbox {
   width: 1px !important; }
 
 @media only screen and (max-width: 480px) {
-  /* line 179, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_helper.scss */
+  /* line 178, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_helper.scss */
   .accessibility--palm,
   .visuallyhidden--palm {
     border: 0 !important;
@@ -5794,7 +5794,7 @@ html.flexbox {
     position: absolute !important;
     width: 1px !important; } }
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
-  /* line 179, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_helper.scss */
+  /* line 178, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_helper.scss */
   .accessibility--lap,
   .visuallyhidden--lap {
     border: 0 !important;
@@ -5806,7 +5806,7 @@ html.flexbox {
     position: absolute !important;
     width: 1px !important; } }
 @media only screen and (min-width: 481px) {
-  /* line 179, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_helper.scss */
+  /* line 178, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_helper.scss */
   .accessibility--lap-and-up,
   .visuallyhidden--lap-and-up {
     border: 0 !important;
@@ -5818,7 +5818,7 @@ html.flexbox {
     position: absolute !important;
     width: 1px !important; } }
 @media only screen and (max-width: 1023px) {
-  /* line 179, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_helper.scss */
+  /* line 178, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_helper.scss */
   .accessibility--portable,
   .visuallyhidden--portable {
     border: 0 !important;
@@ -5830,7 +5830,7 @@ html.flexbox {
     position: absolute !important;
     width: 1px !important; } }
 @media only screen and (min-width: 1024px) {
-  /* line 179, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_helper.scss */
+  /* line 178, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_helper.scss */
   .accessibility--desk,
   .visuallyhidden--desk {
     border: 0 !important;
@@ -5842,7 +5842,7 @@ html.flexbox {
     position: absolute !important;
     width: 1px !important; } }
 @media only screen and (min-width: 1200px) {
-  /* line 179, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_helper.scss */
+  /* line 178, ../../source/itsvicssx/scss-inuitcss/inuit.css/generic/_helper.scss */
   .accessibility--desk-wide,
   .visuallyhidden--desk-wide {
     border: 0 !important;
@@ -5869,7 +5869,7 @@ html.flexbox {
    ========================================================================== */
 /* line 11, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/base/_main.scss */
 html {
-  color: #333333;
+  color: #333;
   -webkit-font-smoothing: antialiased; }
 
 /* ==========================================================================
@@ -5877,7 +5877,7 @@ html {
    ========================================================================== */
 /* line 20, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/base/_main.scss */
 a {
-  color: #333333;
+  color: #333;
   text-decoration: none; }
 
 /* line 25, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/base/_main.scss */
@@ -5887,12 +5887,12 @@ a:focus {
 /*
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 34, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/base/_main.scss */
+/* line 33, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/base/_main.scss */
 a:active,
 a:hover {
   outline: 0; }
 
-/* line 43, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/base/_main.scss */
+/* line 38, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/base/_main.scss */
 h1,
 h2,
 h3,
@@ -6092,7 +6092,7 @@ green     #859900  operators, other keywords
 /* Name.Attribute */
 /* line 53, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/base/_syntax.scss */
 .highlight .nb {
-  color: #b58900; }
+  color: #B58900; }
 
 /* Name.Builtin */
 /* line 54, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/base/_syntax.scss */
@@ -6466,9 +6466,9 @@ green     #859900  operators, other keywords
 \*------------------------------------*/
 /* line 7, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_latest-lists.scss */
 .latest-lists__heading {
-  -webkit-transition: all 250ms;
   -moz-transition: all 250ms;
   -o-transition: all 250ms;
+  -webkit-transition: all 250ms;
   transition: all 250ms;
   margin: 0;
   padding: 0 10px;
@@ -6479,7 +6479,7 @@ green     #859900  operators, other keywords
   /* line 16, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_latest-lists.scss */
   .latest-lists__heading:hover {
     outline: 1px solid #ff5289;
-    color: red; }
+    color: #F00; }
 
 /* line 23, ../../source/itsvicssx/scss-inuitcss/ui-itsvicsoto/_latest-lists.scss */
 .latest-lists__posts-container {

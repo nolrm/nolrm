@@ -6,9 +6,63 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 24 Apr 2015 10:55:58 +0800</pubDate>
-    <lastBuildDate>Fri, 24 Apr 2015 10:55:58 +0800</lastBuildDate>
-    <generator>Jekyll v1.4.3</generator>
+    <pubDate>Wed, 04 Nov 2015 22:01:59 +1300</pubDate>
+    <lastBuildDate>Wed, 04 Nov 2015 22:01:59 +1300</lastBuildDate>
+    <generator>Jekyll v3.0.0</generator>
+    
+      <item>
+        <title>Html5 Drag and Drop</title>
+        <description>&lt;h3 id=&quot;html5-drag-and-drop&quot;&gt;Html5 Drag and drop&lt;/h3&gt;
+
+&lt;p&gt;Just because I had to build this one and it’s frustrating with jQuery UI when&lt;br /&gt;
+dealing with iFrame.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/html5-dnd.html&quot;&gt;Click here to see Demo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/html5-voidberg.html&quot;&gt;Click here to see Demo Voidberg&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/html5-voidberg-angular.html&quot;&gt;Click here to see Demo Voidberg - Angular&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/html5-ng-rubaxa.html&quot;&gt;Click here to see Demo Rubaxa - Angular&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 10 Jan 2015 13:00:00 +1300</pubDate>
+        <link>http://yourdomain.com/case-study-projects/2015/01/10/dragndrop/</link>
+        <guid isPermaLink="true">http://yourdomain.com/case-study-projects/2015/01/10/dragndrop/</guid>
+        
+        
+        <category>case-study-projects</category>
+        
+      </item>
+    
+      <item>
+        <title>Cheatsheets Collection</title>
+        <description>&lt;h3 id=&quot;welcome-to-my-hackerrrry-page&quot;&gt;Welcome to my hackerrrry page!&lt;/h3&gt;
+
+&lt;p&gt;I try to compile as much information as I can while developing for future&lt;br /&gt;
+reference. Docs might be dirty but I’ll keep everything as neat as possible.&lt;br /&gt;
+This includes best practices ranging from front-end framework, javascript&lt;br /&gt;
+snippets, css or even random stuff I just want to note.&lt;/p&gt;
+
+&lt;p&gt;Some of them are listed here :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/cheatsheets/inspiration&quot;&gt;Inspiration&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/cheatsheets/angular&quot;&gt;Angular&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/cheatsheets/jquery&quot;&gt;JQuery&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/cheatsheets/whatever-nix&quot;&gt;whatever-nix&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/cheatsheets/wordpress&quot;&gt;wordpress&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/cheatsheets/osx-developer-setup&quot;&gt;OSX Developer Setup&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 10 Jan 2015 13:00:00 +1300</pubDate>
+        <link>http://yourdomain.com/case-study-projects/2015/01/10/cheatsheets/</link>
+        <guid isPermaLink="true">http://yourdomain.com/case-study-projects/2015/01/10/cheatsheets/</guid>
+        
+        
+        <category>case-study-projects</category>
+        
+      </item>
     
       <item>
         <title>Installation Guide</title>
@@ -55,66 +109,12 @@ I will be constantly keep this up to date for myself and for all who wanted to c
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 10 Jan 2015 00:00:00 -0000</pubDate>
+        <pubDate>Sat, 10 Jan 2015 13:00:00 +1300</pubDate>
         <link>http://yourdomain.com/articles/2015/01/10/installation-guide/</link>
         <guid isPermaLink="true">http://yourdomain.com/articles/2015/01/10/installation-guide/</guid>
         
         
         <category>articles</category>
-        
-      </item>
-    
-      <item>
-        <title>Html5 Drag and Drop</title>
-        <description>&lt;h3 id=&quot;html5-drag-and-drop&quot;&gt;Html5 Drag and drop&lt;/h3&gt;
-
-&lt;p&gt;Just because I had to build this one and it’s frustrating with jQuery UI when&lt;br /&gt;
-dealing with iFrame.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/html5-dnd.html&quot;&gt;Click here to see Demo&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/html5-voidberg.html&quot;&gt;Click here to see Demo Voidberg&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/html5-voidberg-angular.html&quot;&gt;Click here to see Demo Voidberg - Angular&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/html5-ng-rubaxa.html&quot;&gt;Click here to see Demo Rubaxa - Angular&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sat, 10 Jan 2015 00:00:00 -0000</pubDate>
-        <link>http://yourdomain.com/case-study-projects/2015/01/10/dragndrop/</link>
-        <guid isPermaLink="true">http://yourdomain.com/case-study-projects/2015/01/10/dragndrop/</guid>
-        
-        
-        <category>case-study-projects</category>
-        
-      </item>
-    
-      <item>
-        <title>Cheatsheets Collection</title>
-        <description>&lt;h3 id=&quot;welcome-to-my-hackerrrry-page&quot;&gt;Welcome to my hackerrrry page!&lt;/h3&gt;
-
-&lt;p&gt;I try to compile as much information as I can while developing for future&lt;br /&gt;
-reference. Docs might be dirty but I’ll keep everything as neat as possible.&lt;br /&gt;
-This includes best practices ranging from front-end framework, javascript&lt;br /&gt;
-snippets, css or even random stuff I just want to note.&lt;/p&gt;
-
-&lt;p&gt;Some of them are listed here :&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/cheatsheets/inspiration&quot;&gt;Inspiration&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/cheatsheets/angular&quot;&gt;Angular&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/cheatsheets/jquery&quot;&gt;JQuery&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/cheatsheets/whatever-nix&quot;&gt;whatever-nix&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/cheatsheets/wordpress&quot;&gt;wordpress&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/cheatsheets/osx-developer-setup&quot;&gt;OSX Developer Setup&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sat, 10 Jan 2015 00:00:00 -0000</pubDate>
-        <link>http://yourdomain.com/case-study-projects/2015/01/10/cheatsheets/</link>
-        <guid isPermaLink="true">http://yourdomain.com/case-study-projects/2015/01/10/cheatsheets/</guid>
-        
-        
-        <category>case-study-projects</category>
         
       </item>
     
