@@ -1,2 +1,6 @@
+;(function () {
+    'use strict';
 
-window.sr = new scrollReveal();
+    window.sr = new scrollReveal();
+
+}());

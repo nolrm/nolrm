@@ -1,2 +1,0 @@
-# Marlon Maniti
-Personal Portfolio
