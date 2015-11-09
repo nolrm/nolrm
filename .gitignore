@@ -35,6 +35,7 @@ _gh_pages
 .sass-cache
 #bower installed
 application/assets
+application/_site/assets
 
 Numerous always-ignore extensions
 *.diff
