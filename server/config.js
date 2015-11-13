@@ -1,6 +1,6 @@
 
 module.exports = {
-  app: 'TORO GrooveBox',
+  app: 'ExpressJS Boilerplate',
   port: 5000,
   root: '/../application/'
 }

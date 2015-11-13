@@ -33,9 +33,6 @@ node_modules
 _gh_pages
 .ruby-version
 .sass-cache
-#bower installed
-application/assets
-application/_site/assets
 
 Numerous always-ignore extensions
 *.diff
@@ -64,6 +61,7 @@ Thumbs.db
 # Folders to ignore
 node_modules
 bower_components
+vendor
 build
 .tmp
 logs
