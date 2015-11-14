@@ -1,0 +1,94 @@
+//------------------------------------\\
+//  #PAGE-CONTENT
+//------------------------------------\\
+
+.page-content
+
+.home-section,
+.about-section,
+.section-social
+  padding: 65px 0
+  padding: 3.75rem 0
+  text-align: center
+
+
+/* SECTION-HEADER */
+.section-header
+  vertical-align: top
+  text-transform: uppercase
+
+  &:after
+    content: ""
+    display: block
+    width: 35px
+    height: 3px
+    margin: 10px auto 50px
+    background-color: $uiBrandColor
+
+.section--width
+  max-width: 580px
+  margin: 0 auto
+
+  p
+    margin: 0 0 40px
+    font-size: 20px
+    line-height: 1.5
+
+
+
+/* #HOME-SECTION */
+.home-section
+  background: #eee
+
+.home-section__item
+  padding: 6px
+  margin-bottom: 30px
+  margin-bottom: 1.875rem
+
+  img
+    opacity: 1
+    @include transition(all 0.3s linear)
+
+    &:hover
+      opacity: .8
+
+  h4
+    color: #666
+
+
+/* #ABOUT-SECTION */
+
+.about-section__img
+  width: 290px
+  margin: 30px auto
+
+.about-section--dl
+  margin-bottom: 50px
+
+
+/* #FOOTER */
+
+footer
+  color: $uiLightColor
+  background: #5b6773
+	
+  .section--width p
+    color: $uiLightColor
+
+.section-social
+  padding-bottom: 0
+
+.social-icons
+  margin-bottom: 80px
+  margin-bottom: 5rem
+
+  a
+    color: $uiLightColor
+
+    &:hover
+      color: $uiBrandColor
+
+.footer--copyright
+  padding-bottom: 20px
+  margin-bottom: 0
+  color: #ccc

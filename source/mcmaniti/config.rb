@@ -4,7 +4,7 @@
 http_path = "/"
 css_dir = "../../application/css"
 # sass_dir = "scss-jonathanpath"
-sass_dir = "scss-inuitcss"
+sass_dir = "sass-inuitcss"
 images_dir = "img"
 javascripts_dir = "js"
 fonts_dir = "fonts"
@@ -21,7 +21,7 @@ color_output = false
 
 # If you prefer the indented syntax, you might want to regenerate this
 # project again passing --syntax sass, or you can uncomment this:
-# preferred_syntax = :sass
+preferred_syntax = :sass
 # and then run:
 # sass-convert -R --from scss --to sass scss scss && rm -rf sass && mv scss sass
-preferred_syntax = :scss
+# preferred_syntax = :scss

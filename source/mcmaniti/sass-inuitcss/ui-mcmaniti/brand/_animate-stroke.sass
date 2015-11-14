@@ -1,0 +1,69 @@
+//------------------------------------\\
+//  #BRAND-STROKE
+//------------------------------------\\
+
+.brand-animate
+  position: absolute
+  height: 60%
+  right: 20px
+  bottom: 10%
+  overflow: visible !important
+  opacity: .25
+
+=animation($animate...)
+  $max: length($animate)
+  $animations: ""
+  @for $i from 1 through $max
+    $animations: #{$animations + nth($animate, $i)}
+    @if $i < $max
+      $animations: #{$animations + ", "}
+  -webkit-animation: $animations
+  -moz-animation: $animations
+  -o-animation: $animations
+  animation: $animations
+
+=keyframes($animationName)
+  @-webkit-keyframes #{$animationName}
+    @content
+
+  @-moz-keyframes #{$animationName}
+    @content
+
+  @-o-keyframes #{$animationName}
+    @content
+
+  @keyframes #{$animationName}
+    @content
+
++keyframes(fill)
+  0%
+    fill: #fff
+  20%
+    fill: none
+  70%
+    fill: none
+  100%
+    fill: #fff
+
+
++keyframes(dash)
+  0%
+    stroke-dashoffset: 2853.59228515625
+  70%
+    stroke-dashoffset: 0
+  71%
+    opacity: 1
+  72%
+    opacity: 0
+  100%
+    opacity: 0
+
+
+.brand-animate--fill
+  fill: #333
+  +animation("fill 3s ease-in-out infinite")
+
+.brand-animate--stroke
+  stroke-dasharray: 2853.59228515625
+  stroke-dashoffset: 2853.59228515625
+  +animation("dash 3s ease-in-out infinite")

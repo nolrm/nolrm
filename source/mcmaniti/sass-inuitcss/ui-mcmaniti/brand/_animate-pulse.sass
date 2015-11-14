@@ -1,0 +1,29 @@
+//------------------------------------\\
+//  ANIMATE PULSE
+//------------------------------------\\
+   
+.pulse-logo
+  width: 90px
+  margin: 0 auto
+  @include animation(pulsate 6s cubic-bezier(.73,.005,.42,1.005) infinite)
+  
+  
+// keyframes mixin
+=keyframes($name)
+  @-webkit-keyframes #{$name}
+    @content
+  @-moz-keyframes #{$name}
+    @content
+  @-ms-keyframes #{$name}
+    @content
+  @keyframes #{$name}
+    @content
+
+// use of keyframes mixin
++keyframes(pulsate)
+  0%
+    opacity: .1
+  50%
+    opacity: .5
+  100%
+    opacity: .1
