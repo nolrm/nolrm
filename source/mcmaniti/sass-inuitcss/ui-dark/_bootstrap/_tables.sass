@@ -1,0 +1,116 @@
+
+// Table Contextual Classes Override
+// ---------------------------------
+// We override the default styles that Bootstrap
+// provide for this class to strictly implement
+// custom solid colors and not use the *spin* mixin
+
+.table
+  // Table Active
+  > thead > tr.active,
+  > thead > tr.active > td,
+  > thead > tr.active > th,
+  > thead > tr > th.active,
+  > thead > tr > td.success,
+
+  > tbody > tr.active,
+  > tbody > tr.active > td,
+  > tbody > tr.active > th,
+  > tbody > tr > th.active,
+  > tbody > tr > td.active,
+
+  > tfoot > tr.active,
+  > tbody > tr.active > td,
+  > tbody > tr.active > th,
+  > tfoot > tr > th.active,
+  > tfoot > tr > td.active
+    background-color: $table-bg-active
+
+
+  // Table Success
+  > thead > tr.success,
+  > thead > tr.success > td,
+  > thead > tr.success > th,
+  > thead > tr > th.success,
+  > thead > tr > td.success,
+
+  > tbody > tr.success,
+  > tbody > tr.success > td,
+  > tbody > tr.success > th,
+  > tbody > tr > th.success,
+  > tbody > tr > td.success,
+
+  > tfoot > tr.success,
+  > tbody > tr.success > td,
+  > tbody > tr.success > th,
+  > tfoot > tr > th.success,
+  > tfoot > tr > td.success
+    color: #fff
+    background-color: $brand-success
+
+
+  // Table Info
+  > thead > tr.info,
+  > thead > tr.info > td,
+  > thead > tr.info > th,
+  > thead > tr > th.info,
+  > thead > tr > td.info,
+
+  > tbody > tr.info,
+  > tbody > tr.info > td,
+  > tbody > tr.info > th,
+  > tbody > tr > th.info,
+  > tbody > tr > td.info,
+
+  > tfoot > tr.info,
+  > tbody > tr.info > td,
+  > tbody > tr.info > th,
+  > tfoot > tr > th.info,
+  > tfoot > tr > td.info
+    color: #fff
+    background-color: $brand-info
+
+
+  // Table Warning
+  > thead > tr.warning,
+  > thead > tr.warning > td,
+  > thead > tr.warning > th,
+  > thead > tr > th.warning,
+  > thead > tr > td.warning,
+
+  > tbody > tr.warning,
+  > tbody > tr.warning > td,
+  > tbody > tr.warning > th,
+  > tbody > tr > th.warning,
+  > tbody > tr > td.warning,
+
+  > tfoot > tr.warning,
+  > tbody > tr.warning > td,
+  > tbody > tr.warning > th,
+  > tfoot > tr > th.warning,
+  > tfoot > tr > td.warning
+    color: darken($brand-warning, 35%)
+    background-color: $brand-warning
+
+
+  // Table Danger
+  > thead > tr.danger,
+  > thead > tr.danger > td,
+  > thead > tr.danger > th,
+  > thead > tr > th.danger,
+  > thead > tr > td.danger,
+
+  > tbody > tr.danger,
+  > tbody > tr.danger > td,
+  > tbody > tr.danger > th,
+  > tbody > tr > th.danger,
+  > tbody > tr > td.danger,
+
+  > tfoot > tr.danger,
+  > tbody > tr.danger > td,
+  > tbody > tr.danger > th,
+  > tfoot > tr > th.danger,
+  > tfoot > tr > td.danger
+    color: #fff
+    background-color: $brand-danger
+

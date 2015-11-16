@@ -1,0 +1,183 @@
+.btn.btn-default.active, .btn.btn-default:hover {
+  background-color: rgba(70, 76, 94, 0.45);
+  border-color: #575f75;
+}
+.btn.btn-primary.active, .btn.btn-primary:hover {
+  box-shadow: none;
+  color: #fff;
+  border-color: #e67428;
+  background-color: rgba(223, 105, 26, 0.75);
+}
+.btn.btn-success.active, .btn.btn-success:hover {
+  box-shadow: none;
+  color: #fff;
+  border-color: #6abe6a;
+  background-color: rgba(92, 184, 92, 0.75);
+}
+.btn.btn-info.active, .btn.btn-info:hover {
+  box-shadow: none;
+  color: #fff;
+  border-color: #6cc7e1;
+  background-color: rgba(91, 192, 222, 0.75);
+}
+.btn.btn-warning.active, .btn.btn-warning:hover {
+  box-shadow: none;
+  color: #fff;
+  border-color: #f2b661;
+  background-color: rgba(240, 173, 78, 0.75);
+}
+.btn.btn-danger.active, .btn.btn-danger:hover {
+  box-shadow: none;
+  color: #fff;
+  border-color: #dd6360;
+  background-color: rgba(217, 83, 79, 0.75);
+}
+
+.input-group-btn .btn-primary {
+  border-color: #414758;
+}
+
+.dropdown-menu {
+  box-shadow: none;
+}
+
+.navbar-inverse .dropdown-menu {
+  border-color: #121318;
+  background-color: #121318;
+}
+.navbar-inverse .dropdown-menu > li > a,
+.navbar-inverse .dropdown-menu > li > a:hover,
+.navbar-inverse .dropdown-menu > li > a:focus {
+  color: #464c5e;
+}
+.navbar-inverse .dropdown-menu > li > a:hover {
+  color: #575f75;
+  background-color: black;
+}
+.navbar-inverse .dropdown-menu > li.active a,
+.navbar-inverse .dropdown-menu > li.active a:hover,
+.navbar-inverse .dropdown-menu > li.active a:focus {
+  color: #7f879f;
+  background-color: black;
+}
+.navbar-inverse .dropdown-menu .divider {
+  background-color: black;
+}
+
+.navbar-default .navbar-brand svg {
+  fill: #DF691A;
+}
+
+.navbar-inverse .navbar-brand svg {
+  fill: #DF691A;
+}
+
+.table > thead > tr.active,
+.table > thead > tr.active > td,
+.table > thead > tr.active > th,
+.table > thead > tr > th.active,
+.table > thead > tr > td.success,
+.table > tbody > tr.active,
+.table > tbody > tr.active > td,
+.table > tbody > tr.active > th,
+.table > tbody > tr > th.active,
+.table > tbody > tr > td.active,
+.table > tfoot > tr.active,
+.table > tbody > tr.active > td,
+.table > tbody > tr.active > th,
+.table > tfoot > tr > th.active,
+.table > tfoot > tr > td.active {
+  background-color: #23262f;
+}
+.table > thead > tr.success,
+.table > thead > tr.success > td,
+.table > thead > tr.success > th,
+.table > thead > tr > th.success,
+.table > thead > tr > td.success,
+.table > tbody > tr.success,
+.table > tbody > tr.success > td,
+.table > tbody > tr.success > th,
+.table > tbody > tr > th.success,
+.table > tbody > tr > td.success,
+.table > tfoot > tr.success,
+.table > tbody > tr.success > td,
+.table > tbody > tr.success > th,
+.table > tfoot > tr > th.success,
+.table > tfoot > tr > td.success {
+  color: #fff;
+  background-color: #5CB85C;
+}
+.table > thead > tr.info,
+.table > thead > tr.info > td,
+.table > thead > tr.info > th,
+.table > thead > tr > th.info,
+.table > thead > tr > td.info,
+.table > tbody > tr.info,
+.table > tbody > tr.info > td,
+.table > tbody > tr.info > th,
+.table > tbody > tr > th.info,
+.table > tbody > tr > td.info,
+.table > tfoot > tr.info,
+.table > tbody > tr.info > td,
+.table > tbody > tr.info > th,
+.table > tfoot > tr > th.info,
+.table > tfoot > tr > td.info {
+  color: #fff;
+  background-color: #5BC0DE;
+}
+.table > thead > tr.warning,
+.table > thead > tr.warning > td,
+.table > thead > tr.warning > th,
+.table > thead > tr > th.warning,
+.table > thead > tr > td.warning,
+.table > tbody > tr.warning,
+.table > tbody > tr.warning > td,
+.table > tbody > tr.warning > th,
+.table > tbody > tr > th.warning,
+.table > tbody > tr > td.warning,
+.table > tfoot > tr.warning,
+.table > tbody > tr.warning > td,
+.table > tbody > tr.warning > th,
+.table > tfoot > tr > th.warning,
+.table > tfoot > tr > td.warning {
+  color: #81500b;
+  background-color: #F0AD4E;
+}
+.table > thead > tr.danger,
+.table > thead > tr.danger > td,
+.table > thead > tr.danger > th,
+.table > thead > tr > th.danger,
+.table > thead > tr > td.danger,
+.table > tbody > tr.danger,
+.table > tbody > tr.danger > td,
+.table > tbody > tr.danger > th,
+.table > tbody > tr > th.danger,
+.table > tbody > tr > td.danger,
+.table > tfoot > tr.danger,
+.table > tbody > tr.danger > td,
+.table > tbody > tr.danger > th,
+.table > tfoot > tr > th.danger,
+.table > tfoot > tr > td.danger {
+  color: #fff;
+  background-color: #D9534F;
+}
+
+.text-primary {
+  color: #DF691A;
+}
+
+.text-success {
+  color: #5CB85C;
+}
+
+.text-info {
+  color: #5BC0DE;
+}
+
+.text-warning {
+  color: #F0AD4E;
+}
+
+.text-danger {
+  color: #D9534F;
+}

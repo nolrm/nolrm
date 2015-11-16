@@ -12,336 +12,399 @@
 /**
  * She’s all yours, cap’n... Begin importing your stuff here.
  */
-/* line 5, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_generic.sass */
 html,
 body {
   height: 100%;
   width: 100%;
-  font-family: "Roboto", "sans serif", "arial"; }
+  font-family: "Roboto", "sans serif", "arial";
+}
 
-/* line 11, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_generic.sass */
 .v-align {
   display: table;
   height: 100%;
-  width: 100%; }
+  width: 100%;
+}
 
-/* line 16, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_generic.sass */
 .v-align-inner {
   display: table-cell;
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
-/* line 11, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/base/_main.sass */
-html {
+html,
+body {
   color: #999;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+}
 
-/* line 19, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/base/_main.sass */
 a {
   color: #999;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
-/* line 23, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/base/_main.sass */
 a:focus {
-  outline: thin dotted; }
+  outline: thin dotted;
+}
 
-/* line 31, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/base/_main.sass */
 a:active,
 a:hover {
-  outline: 0; }
+  outline: 0;
+  text-decoration: none;
+}
 
-/* line 35, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/base/_main.sass */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-weight: 300; }
+  font-weight: 300;
+}
 
-/* line 5, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_header.sass */
 .masthead {
   height: 100%;
   width: 100%;
   color: #fff;
   background: url("../images/header-summer-bg.jpg") no-repeat center center;
-  background-size: cover; }
+  background-size: cover;
+}
 
-/* line 12, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_header.sass */
 .masthead__logo-wrapper {
-  padding-top: 20px; }
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+}
 
-/* line 15, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_header.sass */
 .masthead__logo {
   height: 32px;
-  margin-right: 15px; }
+  margin-right: 10px;
+}
 
-/* line 19, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_header.sass */
 .masthead__logo--fill {
-  fill: #fff; }
+  fill: #fff;
+}
 
-/* line 22, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_header.sass */
 .masthead__name {
   display: inline-block;
-  font-size: 18px;
-  line-height: 18px;
-  color: #fff; }
+  font-size: 1.4em;
+  color: #fff;
+}
 
-/* line 28, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_header.sass */
-.masthead__name small {
-  display: block; }
+.masthead--position {
+  width: 220px;
+  margin: 0 auto 40px;
+  padding: 5px;
+  font-size: 1.4em;
+  border: 3px solid #fff;
+}
 
-/* line 31, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_header.sass */
-.masthead__name i {
-  vertical-align: middle; }
-
-/* Headline */
-/* line 36, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_header.sass */
-.headline__title {
-  font-size: 60px; }
-
-/* line 39, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_header.sass */
-.headline__desc {
-  margin-top: 10px; }
-
-/* line 42, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_header.sass */
-.headline__desc-border {
-  border-top: 1px solid #adadad;
-  margin-top: 6px; }
-
-/* line 7, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_main-page.sass */
 .home-section,
 .about-section,
 .section-social {
   padding: 65px 0;
   padding: 3.75rem 0;
-  text-align: center; }
+  text-align: center;
+}
 
 /* SECTION-HEADER */
-/* line 16, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_main-page.sass */
 .section-header {
   vertical-align: top;
-  text-transform: uppercase; }
-  /* line 20, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_main-page.sass */
-  .section-header:after {
-    content: "";
-    display: block;
-    width: 35px;
-    height: 3px;
-    margin: 10px auto 50px;
-    background-color: #2abb9b; }
+  text-transform: uppercase;
+}
+.section-header:after {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 3px;
+  margin: 10px auto 50px;
+  background-color: #2abb9b;
+}
 
-/* line 28, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_main-page.sass */
 .section--width {
   max-width: 580px;
-  margin: 0 auto; }
-  /* line 32, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_main-page.sass */
-  .section--width p {
-    margin: 0 0 40px;
-    font-size: 20px;
-    line-height: 1.5; }
+  margin: 0 auto;
+}
+.section--width p {
+  margin: 0 0 40px;
+  font-size: 20px;
+  line-height: 1.5;
+}
 
 /* #HOME-SECTION */
-/* line 40, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_main-page.sass */
 .home-section {
-  background: #eee; }
+  background: #eee;
+}
 
-/* line 43, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_main-page.sass */
 .home-section__item {
   padding: 6px;
   margin-bottom: 30px;
-  margin-bottom: 1.875rem; }
-  /* line 48, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_main-page.sass */
-  .home-section__item img {
-    opacity: 1;
-    -moz-transition: all 0.3s linear;
-    -o-transition: all 0.3s linear;
-    -webkit-transition: all 0.3s linear;
-    transition: all 0.3s linear; }
-    /* line 52, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_main-page.sass */
-    .home-section__item img:hover {
-      opacity: 0.8; }
-  /* line 55, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_main-page.sass */
-  .home-section__item h4 {
-    color: #666; }
+  margin-bottom: 1.875rem;
+}
+.home-section__item img {
+  opacity: 1;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.home-section__item img:hover {
+  opacity: 0.8;
+}
+.home-section__item h4 {
+  color: #666;
+}
 
 /* #ABOUT-SECTION */
-/* line 61, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_main-page.sass */
 .about-section__img {
   width: 290px;
-  margin: 30px auto; }
+  margin: 30px auto;
+}
 
-/* line 65, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_main-page.sass */
 .about-section--dl {
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+}
 
 /* #FOOTER */
-/* line 71, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_main-page.sass */
 footer {
   color: #fff;
-  background: #5b6773; }
-  /* line 75, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_main-page.sass */
-  footer .section--width p {
-    color: #fff; }
+  background: #5b6773;
+}
+footer .section--width p {
+  color: #fff;
+}
 
-/* line 78, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_main-page.sass */
 .section-social {
-  padding-bottom: 0; }
+  padding-bottom: 0;
+}
 
-/* line 81, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_main-page.sass */
 .social-icons {
   margin-bottom: 80px;
-  margin-bottom: 5rem; }
-  /* line 85, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_main-page.sass */
-  .social-icons a {
-    color: #fff; }
-    /* line 88, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_main-page.sass */
-    .social-icons a:hover {
-      color: #2abb9b; }
+  margin-bottom: 5rem;
+}
+.social-icons a {
+  color: #fff;
+}
+.social-icons a:hover {
+  color: #2abb9b;
+}
 
-/* line 91, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/_main-page.sass */
 .footer--copyright {
   padding-bottom: 20px;
   margin-bottom: 0;
-  color: #ccc; }
+  color: #ccc;
+}
 
-/* line 5, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/brand/_animate-pulse.sass */
+#pulse-wrapper {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #181d27;
+  color: #CECECE;
+}
+
 .pulse-logo {
   width: 90px;
   margin: 0 auto;
   -moz-animation: pulsate 6s cubic-bezier(0.73, 0.005, 0.42, 1.005) infinite;
   -webkit-animation: pulsate 6s cubic-bezier(0.73, 0.005, 0.42, 1.005) infinite;
-  animation: pulsate 6s cubic-bezier(0.73, 0.005, 0.42, 1.005) infinite; }
+  animation: pulsate 6s cubic-bezier(0.73, 0.005, 0.42, 1.005) infinite;
+}
 
 @-webkit-keyframes pulsate {
   0% {
-    opacity: 0.1; }
+    opacity: 0.1;
+  }
   50% {
-    opacity: 0.5; }
+    opacity: 0.5;
+  }
   100% {
-    opacity: 0.1; } }
+    opacity: 0.1;
+  }
+}
 @-moz-keyframes pulsate {
   0% {
-    opacity: 0.1; }
+    opacity: 0.1;
+  }
   50% {
-    opacity: 0.5; }
+    opacity: 0.5;
+  }
   100% {
-    opacity: 0.1; } }
+    opacity: 0.1;
+  }
+}
 @-ms-keyframes pulsate {
   0% {
-    opacity: 0.1; }
+    opacity: 0.1;
+  }
   50% {
-    opacity: 0.5; }
+    opacity: 0.5;
+  }
   100% {
-    opacity: 0.1; } }
+    opacity: 0.1;
+  }
+}
 @keyframes pulsate {
   0% {
-    opacity: 0.1; }
+    opacity: 0.1;
+  }
   50% {
-    opacity: 0.5; }
+    opacity: 0.5;
+  }
   100% {
-    opacity: 0.1; } }
-/* line 5, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/brand/_animate-stroke.sass */
+    opacity: 0.1;
+  }
+}
 .brand-animate {
   position: absolute;
   height: 60%;
   right: 20px;
   bottom: 10%;
   overflow: visible !important;
-  opacity: 0.25; }
+  opacity: 0.25;
+}
 
 @-webkit-keyframes fill {
   0% {
-    fill: #fff; }
+    fill: #fff;
+  }
   20% {
-    fill: none; }
+    fill: none;
+  }
   70% {
-    fill: none; }
+    fill: none;
+  }
   100% {
-    fill: #fff; } }
+    fill: #fff;
+  }
+}
 @-moz-keyframes fill {
   0% {
-    fill: #fff; }
+    fill: #fff;
+  }
   20% {
-    fill: none; }
+    fill: none;
+  }
   70% {
-    fill: none; }
+    fill: none;
+  }
   100% {
-    fill: #fff; } }
+    fill: #fff;
+  }
+}
 @-o-keyframes fill {
   0% {
-    fill: #fff; }
+    fill: #fff;
+  }
   20% {
-    fill: none; }
+    fill: none;
+  }
   70% {
-    fill: none; }
+    fill: none;
+  }
   100% {
-    fill: #fff; } }
+    fill: #fff;
+  }
+}
 @keyframes fill {
   0% {
-    fill: #fff; }
+    fill: #fff;
+  }
   20% {
-    fill: none; }
+    fill: none;
+  }
   70% {
-    fill: none; }
+    fill: none;
+  }
   100% {
-    fill: #fff; } }
+    fill: #fff;
+  }
+}
 @-webkit-keyframes dash {
   0% {
-    stroke-dashoffset: 2853.59229; }
+    stroke-dashoffset: 2853.59229;
+  }
   70% {
-    stroke-dashoffset: 0; }
+    stroke-dashoffset: 0;
+  }
   71% {
-    opacity: 1; }
+    opacity: 1;
+  }
   72% {
-    opacity: 0; }
+    opacity: 0;
+  }
   100% {
-    opacity: 0; } }
+    opacity: 0;
+  }
+}
 @-moz-keyframes dash {
   0% {
-    stroke-dashoffset: 2853.59229; }
+    stroke-dashoffset: 2853.59229;
+  }
   70% {
-    stroke-dashoffset: 0; }
+    stroke-dashoffset: 0;
+  }
   71% {
-    opacity: 1; }
+    opacity: 1;
+  }
   72% {
-    opacity: 0; }
+    opacity: 0;
+  }
   100% {
-    opacity: 0; } }
+    opacity: 0;
+  }
+}
 @-o-keyframes dash {
   0% {
-    stroke-dashoffset: 2853.59229; }
+    stroke-dashoffset: 2853.59229;
+  }
   70% {
-    stroke-dashoffset: 0; }
+    stroke-dashoffset: 0;
+  }
   71% {
-    opacity: 1; }
+    opacity: 1;
+  }
   72% {
-    opacity: 0; }
+    opacity: 0;
+  }
   100% {
-    opacity: 0; } }
+    opacity: 0;
+  }
+}
 @keyframes dash {
   0% {
-    stroke-dashoffset: 2853.59229; }
+    stroke-dashoffset: 2853.59229;
+  }
   70% {
-    stroke-dashoffset: 0; }
+    stroke-dashoffset: 0;
+  }
   71% {
-    opacity: 1; }
+    opacity: 1;
+  }
   72% {
-    opacity: 0; }
+    opacity: 0;
+  }
   100% {
-    opacity: 0; } }
-/* line 62, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/brand/_animate-stroke.sass */
+    opacity: 0;
+  }
+}
 .brand-animate--fill {
-  fill: #333;
+  fill: #none;
+  fill-opacity: 0.4;
   -webkit-animation: fill 3s ease-in-out infinite;
   -moz-animation: fill 3s ease-in-out infinite;
   -o-animation: fill 3s ease-in-out infinite;
-  animation: fill 3s ease-in-out infinite; }
+  animation: fill 3s ease-in-out infinite;
+}
 
-/* line 66, ../../source/mcmaniti/sass-inuitcss/ui-mcmaniti/brand/_animate-stroke.sass */
 .brand-animate--stroke {
+  fill: none;
   stroke-dasharray: 2853.59229;
   stroke-dashoffset: 2853.59229;
   -webkit-animation: dash 3s ease-in-out infinite;
   -moz-animation: dash 3s ease-in-out infinite;
   -o-animation: dash 3s ease-in-out infinite;
-  animation: dash 3s ease-in-out infinite; }
+  animation: dash 3s ease-in-out infinite;
+}
