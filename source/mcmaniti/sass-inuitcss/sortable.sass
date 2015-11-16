@@ -1,0 +1,149 @@
+@import "compass/css3"
+
+*, *:before, *:after
+  @include box-sizing(border-box)
+
+@mixin clearfix ()
+  &:before,
+  &:after
+    display: table
+    content: " "
+  &:after
+    clear: both
+
+.light hr
+  border-top: 1px solid #eee
+  border-bottom: 1px solid #fff
+
+.dark hr
+  border-top: 1px solid #111
+  border-bottom: 1px solid rgba(#666, .45)
+    
+  
+html,
+body
+  height: 100%
+  
+  &.dark
+    background-color: #333
+  &.light
+    background-color: #fff
+
+.dark .widget
+  border-color: #222
+  background-color: lighten(#333, 2%)
+  
+  .widget-head
+    text-shadow: 0 .5px 0 #000
+    background-color: #222
+    
+  .widget-body-table
+    background-color: lighten(#111, 10%)
+    
+  .widget-body-table span
+    text-shadow: 0 1px 1px lighten(#333, 2%)
+    color: lighten(#111, 2%) 
+
+
+.light .widget
+  border-color: #ddd
+  .widget-head
+    text-shadow: 0 .5 #fff
+    background-color: #ddd
+  
+  .widget-body-table
+    background-color: #fff
+    
+  .widget-body-table span
+    color: lighten(#888, 25%)
+    
+.light .widget-container
+  border-right-color: #ddd
+
+.dark .widget-container
+  border-right-color: #222
+  
+.widget-container
+  @include display-flex(flex)
+  @include flex-direction(row)
+  @include flex-wrap(wrap)
+  @include justify-content(center)
+  @include align-items(flex-start)
+  width: 100%
+  margin: 25px
+
+.widget
+  @include transition(left .1s ease, top .1s ease)
+    
+.widget, 
+.placeholder
+  
+  @include flex-grow(0)
+  @include align-self(center)
+  @include flex-basis(120px)
+  position: relative
+  height: 90px
+  margin: 12px 8px
+  padding-top: 12px
+  border-width: 3px 
+  border-style: solid
+  border-radius: 2px
+  border-color: transparent
+  cursor: move
+  
+.widget-head
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  display: block
+  width: 100%
+  height: 12px
+  padding-left: 5px
+  font-size: 14px
+  line-height: .8
+  letter-spacing: 1px
+  color: orange
+  
+  &:before, &:after
+    content: "\2022"
+  &:before
+    color: tomato
+  &:after
+    color: darken(lime, 15%)
+  
+.widget-body
+  
+.widget-body-table
+  position: relative
+  display: table
+  width: 100%
+  height: 100%
+  padding: 2px 8px
+  
+.widget-body-table .framework
+  @include filter(grayscale(100%))
+  position: absolute
+  bottom: 2px
+  right: 2px
+  width: 12px
+  height: 12px
+  opacity: .25
+    
+    
+.widget-body-content
+  display: table-cell
+  height: 100%
+  text-align: center
+  vertical-align: middle
+  
+  span
+    font-size: 40px
+    
+.placeholder
+  border: 1px solid orange
+  background-color: rgba(orange, .25)
+  
+.ui-sortable-helper
+  @include transition(box-shadow .5s ease)
+  @include box-shadow(0 32px 32px -16px rgba(66,66,66,.65))
