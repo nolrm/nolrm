@@ -1,0 +1,74 @@
+/* line 8, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+html, body {
+  line-height: 1.6;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+/* line 12, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+.customer {
+  margin-bottom: 20px; }
+  /* line 15, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+  .customer h1 {
+    margin-bottom: 0; }
+
+/* line 18, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+.customer--mobile {
+  font-size: 18px;
+  margin-bottom: 10px; }
+
+/* line 22, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+.report {
+  color: #fff;
+  border-color: #222;
+  background-color: #383838;
+  text-align: center;
+  border-left: 1px solid #222; }
+  /* line 29, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+  .report li {
+    margin: 10px 0; }
+
+/* line 33, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+.active .report--title {
+  background-color: #333; }
+/* line 35, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+.active .report--content {
+  background-color: #484848; }
+
+/* line 38, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+.report--title {
+  background-color: #222;
+  padding: 8px;
+  min-height: 70px;
+  font-size: 16px; }
+
+/* line 44, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+.report--content {
+  padding: 4px 8px; }
+
+/* line 47, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+.no-pad {
+  padding: 0; }
+
+@media (max-width: 767px) {
+  /* line 53, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+  .report {
+    margin: 30px 15px; }
+
+  /* line 56, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+  .report--content li:first-child:before {
+    content: "Shopfronts "; }
+
+  /* line 59, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+  .report--content li:nth-child(2):before {
+    content: "Website Speed "; }
+
+  /* line 62, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+  .report--content li:nth-child(3):before {
+    content: "Mobile Friendly "; }
+
+  /* line 65, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+  .report--content li:nth-child(4):before {
+    content: "Findability "; }
+
+  /* line 68, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+  .report--content li:nth-child(5):before {
+    content: "Social Engagement "; } }
