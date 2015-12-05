@@ -1,0 +1,71 @@
+@charset "UTF-8"
+//------------------------------------\\
+//  STYLE.CSS
+//------------------------------------\\
+
+@import "compass"
+
+html, body
+	line-height: 1.6
+	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif
+
+.customer
+	margin-bottom: 20px
+
+	h1
+		margin-bottom: 0
+
+.customer--mobile
+	font-size: 18px
+	margin-bottom: 10px
+
+.report
+	color: #fff
+	border-color: #222
+	background-color: #383838
+	text-align: center
+	border-left: 1px solid #222
+
+	li
+		margin: 10px 0
+
+.active
+	.report--title
+		background-color: #333
+	.report--content
+		background-color: #484848
+
+.report--title
+	background-color: #222
+	padding: 8px
+	min-height: 70px
+	font-size: 16px
+
+.report--content
+	padding: 4px 8px
+
+.no-pad
+	padding: 0
+
+
+// Mobile View
+@media (max-width: 767px)
+	.report
+		margin: 30px 15px
+
+	.report--content li:first-child:before
+		content: 'Shopfronts '
+
+	.report--content li:nth-child(2):before
+		content: 'Website Speed '
+
+	.report--content li:nth-child(3):before
+		content: 'Mobile Friendly '
+
+	.report--content li:nth-child(4):before
+		content: 'Findability '
+
+	.report--content li:nth-child(5):before
+		content: 'Social Engagement '
+
+
