@@ -49,11 +49,11 @@ $(document).ready(function() {
                    + active
                    + '"><div class="report--title">'
                    + index.name + '</div><div class="report--content"><ul class="list-unstyled"><li>'
-                   + index.shopfronts + '</li><li>'
-                   + index['website speed'] + '</li><li>'
-                   + index['mobile friendly'] + '</li><li>'
-                   + index.findability + '</li><li>'
-                   + index['social engagement'] + '</li></ul></div></div></div>';
+                   + index.shopfronts + ' <small>Shopfronts</small></li><li>'
+                   + index['website speed'] + ' <small>Website Speed</small></li><li>'
+                   + index['mobile friendly'] + ' <small>Mobile Friendly</small></li><li>'
+                   + index.findability + ' <small>Findability</small></li><li>'
+                   + index['social engagement'] + ' <small>Social Engagement</small></li></ul></div></div></div>';
     });
 
 

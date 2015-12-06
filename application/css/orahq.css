@@ -5,7 +5,7 @@ html, body {
 
 /* line 12, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
 .customer {
-  margin-bottom: 20px; }
+  margin-bottom: 30px; }
   /* line 15, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
   .customer h1 {
     margin-bottom: 0; }
@@ -17,58 +17,82 @@ html, body {
 
 /* line 22, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
 .report {
-  color: #fff;
-  border-color: #222;
-  background-color: #383838;
+  color: #333;
+  background-color: #F9F9F9;
   text-align: center;
-  border-left: 1px solid #222; }
-  /* line 29, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+  border: 1px solid #E0E0E0; }
+  /* line 28, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+  .report:hover {
+    -moz-transition: -moz-transform 0.2s ease 0.1s, box-shadow 0.2s ease;
+    -o-transition: -o-transform 0.2s ease 0.1s, box-shadow 0.2s ease;
+    -webkit-transition: -webkit-transform 0.2s ease, box-shadow 0.2s ease;
+    -webkit-transition-delay: 0.1s, 0s;
+    transition: transform 0.2s ease 0.1s, box-shadow 0.2s ease;
+    -moz-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    -moz-box-shadow: -8px 0 16px -6px rgba(63, 63, 68, 0.75), 8px 0 16px -6px rgba(63, 63, 68, 0.75);
+    -webkit-box-shadow: -8px 0 16px -6px rgba(63, 63, 68, 0.75), 8px 0 16px -6px rgba(63, 63, 68, 0.75);
+    box-shadow: -8px 0 16px -6px rgba(63, 63, 68, 0.75), 8px 0 16px -6px rgba(63, 63, 68, 0.75);
+    position: relative;
+    z-index: 2;
+    min-height: auto;
+    border: 1px solid #ECECEC; }
+  /* line 37, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
   .report li {
-    margin: 10px 0; }
+    margin: 10px 0 25px;
+    font-size: 22px; }
+  /* line 41, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+  .report small {
+    display: block;
+    font-size: 13px; }
 
-/* line 33, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+/* line 46, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
 .active .report--title {
-  background-color: #333; }
-/* line 35, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+  background-color: #DCDCDC; }
+/* line 48, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
 .active .report--content {
-  background-color: #484848; }
+  background-color: #EFEFEF; }
 
-/* line 38, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+/* line 51, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
 .report--title {
-  background-color: #222;
+  background-color: #ECECEC;
   padding: 8px;
   min-height: 70px;
-  font-size: 16px; }
+  font-size: 16px;
+  font-weight: bold;
+  color: #6F6F6F; }
 
-/* line 44, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+/* line 59, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
 .report--content {
   padding: 4px 8px; }
 
-/* line 47, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+/* line 62, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
 .no-pad {
   padding: 0; }
 
 @media (max-width: 767px) {
-  /* line 53, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+  /* line 68, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
   .report {
     margin: 30px 15px; }
 
-  /* line 56, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+  /* line 71, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
   .report--content li:first-child:before {
     content: "Shopfronts "; }
 
-  /* line 59, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+  /* line 74, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
   .report--content li:nth-child(2):before {
     content: "Website Speed "; }
 
-  /* line 62, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+  /* line 77, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
   .report--content li:nth-child(3):before {
     content: "Mobile Friendly "; }
 
-  /* line 65, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+  /* line 80, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
   .report--content li:nth-child(4):before {
     content: "Findability "; }
 
-  /* line 68, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
+  /* line 83, ../../source/mcmaniti/sass-inuitcss/orahq.sass */
   .report--content li:nth-child(5):before {
     content: "Social Engagement "; } }

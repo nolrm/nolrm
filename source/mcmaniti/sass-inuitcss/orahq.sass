@@ -10,7 +10,7 @@ html, body
 	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif
 
 .customer
-	margin-bottom: 20px
+	margin-bottom: 30px
 
 	h1
 		margin-bottom: 0
@@ -20,26 +20,41 @@ html, body
 	margin-bottom: 10px
 
 .report
-	color: #fff
-	border-color: #222
-	background-color: #383838
+	color: #333
+	background-color: #F9F9F9
 	text-align: center
-	border-left: 1px solid #222
+	border: 1px solid #E0E0E0
+
+	&:hover
+		@include transition(transform .2s ease .1s, box-shadow .2s ease)
+		@include scale(1.1, 1.1)
+		@include box-shadow(-8px 0 16px -6px rgba(#3F3F44, .75), 8px 0 16px -6px rgba(#3F3F44, .75))
+		position: relative
+		z-index: 2
+		min-height: auto
+		border: 1px solid #ECECEC
 
 	li
-		margin: 10px 0
+		margin: 10px 0 25px
+		font-size: 22px
+
+	small
+		display: block
+		font-size: 13px
 
 .active
 	.report--title
-		background-color: #333
+		background-color: #DCDCDC
 	.report--content
-		background-color: #484848
+		background-color: #EFEFEF
 
 .report--title
-	background-color: #222
+	background-color: #ECECEC
 	padding: 8px
 	min-height: 70px
 	font-size: 16px
+	font-weight: bold
+	color: #6F6F6F
 
 .report--content
 	padding: 4px 8px
