@@ -351,3 +351,33 @@ footer {
   -moz-animation: dash 3s ease-in-out infinite;
   -o-animation: dash 3s ease-in-out infinite;
   animation: dash 3s ease-in-out infinite; }
+
+.theme-switcher {
+  position: fixed;
+  right: 0;
+  top: 40%;
+  padding: 20px;
+  background: #fff;
+  border-bottom-left-radius: 7px;
+  border-top-left-radius: 7px;
+  z-index: 999;
+}
+
+.theme-switcher-light {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 6px;
+  border-radius: 50%;
+  background: #efefef;
+  border: 1px solid #cacaca;
+}
+
+.theme-switcher-dark {
+  width: 40px;
+  height: 40px;
+  display: block;
+  border-radius: 50%;
+  background: #404040;
+  border: 1px solid #cacaca;
+}
